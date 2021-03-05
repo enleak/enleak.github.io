@@ -1,7 +1,7 @@
 
 ### Reconnaissance
 
-**Scanning the network for open ports and information using** `sudo nmap -sV -n -v -Pn -p- -T4 -A 10.10.108.214`
+**Scanning the network for open ports and services using** `sudo nmap -sV -n -v -Pn -p- -T4 -A 10.10.108.214`
 
 ````
 Nmap scan report for 10.10.108.214
