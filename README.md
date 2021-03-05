@@ -9,5 +9,5 @@ Collection of all the writeups that I have written for each and every room/machi
 
 | Number | Name | Difficulty | OS | Release Date | |
 | --- | --- | --- | --- | --- | --- |
-| 001 | Anonymous | Medium | Linux | 6/06/2020 | [Walk-through](./TryHackMe/Anonymous.md) |
+| 001 | Anonymous | Medium | Linux | 05/17/2020 | [Walk-through](./TryHackMe/Anonymous.md) |
 
