@@ -72,7 +72,7 @@ Host script results:
 
 **We `ls -la` and find 3 files on this machine. We use the `get` command to transfer these files to our host machine.**
 
-<img src="/images/ftpfiles.png">
+<img src="images/ftpfiles.png">
    
 
 
