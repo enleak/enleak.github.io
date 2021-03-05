@@ -21,8 +21,3 @@ Collection of all the writeups that I have written for each and every room/machi
 
 
 
-<footer>
-  <p> yo </p>
-
-
-</footer>
