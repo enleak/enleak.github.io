@@ -99,7 +99,7 @@ Host script results:
 
 <img src="images/otherfiles.png">
 
-**We take a closer look at the clean.sh and notice that it is a kronjob running on their machine. We try to modify the clean.sh file with a python reverse shell to see if its works**
+**We take a closer look at the clean.sh and notice that it is a kronjob (kronjobs is most suitable for scheduling time based tasks.) running on their machine. We try to modify the clean.sh file with a python reverse shell to see if its works**
 
 <img src="images/bash.png">
 
@@ -110,6 +110,18 @@ Host script results:
 **Now we quickly set up our netcat listener using `nc -nvlp 11234`, once the kronjob runs our python script we get a reverse shell!!**
 
 <img src="images/reverse.png">
+
+**Use `ls` to list the files and `cat user.txt`, we're still not done. We have to escelate privileges. To do this lets run linpeas ( LinPEAS is a script that search for possible paths to escalate privileges on Linux/Unix* hosts) on the their machine.**
+**First lets go to the directory hosting linpeas on our remote machine and start a http server**
+
+<img src="images/linpeas.png">
+
+Now lets `wget` the file which will download linpeas on the target machine.
+
+<img src="images/wget.png">
+
+
+
 
 
 
