@@ -76,7 +76,7 @@ Host script results:
 (*Smbclient is useful tool to test connectivity to a Windows share. It can be used to transfer files, or to look at share names*)
 
 <img src="images/smbclient.png">
-**The images did not contain any important information**
+**The images did not contain any important information so lets move on to the ftp service on port 21**
 
 
 
