@@ -78,7 +78,7 @@ Host script results:
 
 <img src="images/todotxt.png">
 
-**We then cat the other 2 files (clean.sh and removes_files.log) and see;**
+**We then `cat` the other 2 files (clean.sh and removes_files.log) and see;**
 
 <img src="images/otherfiles.png">
 
@@ -88,6 +88,13 @@ Host script results:
 **We use an nmap script to list the shares, the share name were looking for is "pics"**
 
 <img src="images/smbpics.png">
+
+**We use `smbclient //$IP/pics -N` to login and `ls` to list the files** 
+*Smbclient is useful tool to test connectivity to a Windows share. It can be used to transfer files, or to look at share names*
+
+<img src="smbclient.png">
+
+
 
 
    
