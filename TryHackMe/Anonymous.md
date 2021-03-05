@@ -111,7 +111,7 @@ Host script results:
 
 <img src="images/reverse.png">
 
-**Use `ls` to list the files and `cat user.txt`, we're still not done. We have to escelate privileges. To do this lets run linpeas ( LinPEAS is a script that search for possible paths to escalate privileges on Linux/Unix* hosts) on the their machine.**
+**Use `ls` to list the files and `cat user.txt`, we're still not done. We have to escelate privileges. To do this lets run linpeas ( LinPEAS is a script that search for possible paths to escalate privileges on Linux/Unix hosts) on the their machine.**
 **First lets go to the directory hosting linpeas on our remote machine and start a http server.**
 
 <img src="images/linpeas.png">
