@@ -1,5 +1,5 @@
 
-### Reconnaissance
+## Reconnaissance
 
 **Scanning the network for open ports and services using** `sudo nmap -sV -n -v -Pn -p- -T4 -A 10.10.108.214`
 
@@ -99,6 +99,8 @@ Host script results:
 
 <img src="images/otherfiles.png">
 
+## Reverse Shell
+
 **We take a closer look at the clean.sh and notice that it is a kronjob (kronjobs is most suitable for scheduling time based tasks) running on their machine. We try to modify the clean.sh file with a python reverse shell to see if its works.**
 
 <img src="images/bash.png">
@@ -113,6 +115,8 @@ Host script results:
 
 **Use `ls` to list the files and `cat user.txt`, we're still not done. We have to escelate privileges. To do this lets run linpeas ( LinPEAS is a script that search for possible paths to escalate privileges on Linux/Unix hosts) on the their machine.**
 **First lets go to the directory hosting linpeas on our remote machine and start a http server.**
+
+## Privilege Escalation
 
 <img src="images/linpeas.png">
 
@@ -135,6 +139,8 @@ Host script results:
 **Lets look for the path where /env is located. NOw let's execute the command by replacing ./env with /usr/bin/env;**
  
 <img src="images/env.png">
+
+## Root
 
 **Once executed, we get root!!
 
