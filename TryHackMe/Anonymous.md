@@ -64,6 +64,23 @@ Host script results:
 |_  start_date: N/A
 
 ````
+
+## Enumerating SMB
+
+**We notice that SMB is running on that target machine on port 445.**
+**We use an nmap script to list the shares, the share name were looking for is "pics".**
+
+<img src="images/smbpics.png">
+
+**We use `smbclient //$IP/pics -N` to login and `ls` to list the files.** 
+(*Smbclient is useful tool to test connectivity to a Windows share. It can be used to transfer files, or to look at share names*)
+
+<img src="images/smbclient.png">
+**The images did not contain any important information**
+
+
+
+
 ## Enumerating FTP Service
 
 - **First thing we notice is that theres an anonymous login for the ftp service allowed. So we jump straight into that and use;**
@@ -82,17 +99,9 @@ Host script results:
 
 <img src="images/otherfiles.png">
 
-## Enumerating SMB
 
-**We notice that SMB is running on that target machine on port 445.**
-**We use an nmap script to list the shares, the share name were looking for is "pics".**
 
-<img src="images/smbpics.png">
 
-**We use `smbclient //$IP/pics -N` to login and `ls` to list the files.** 
-(*Smbclient is useful tool to test connectivity to a Windows share. It can be used to transfer files, or to look at share names*)
-
-<img src="smbclient.png">
 
 
 
