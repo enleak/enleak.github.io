@@ -99,11 +99,11 @@ Host script results:
 
 <img src="images/otherfiles.png">
 
-**We take a closer look at the clean.sh and notice that it is a kronjob (kronjobs is most suitable for scheduling time based tasks) running on their machine. We try to modify the clean.sh file with a python reverse shell to see if its works**
+**We take a closer look at the clean.sh and notice that it is a kronjob (kronjobs is most suitable for scheduling time based tasks) running on their machine. We try to modify the clean.sh file with a python reverse shell to see if its works.**
 
 <img src="images/bash.png">
 
-**We then replace the clean.sh file in their machine with ours useing `put clean.sh clean.sh`**
+**We then replace the clean.sh file in their machine with ours useing `put clean.sh clean.sh`.**
 
 <img src="images/replace.png">
 
@@ -120,11 +120,11 @@ Host script results:
 
 <img src="images/wget.png">
 
-**We use a simple `chmod +x`(chmod +x following by a filename, usually a script, means that you make it executable) and we run it using `./linpeas.sh`**
+**We use a simple `chmod +x`(chmod +x following by a filename, usually a script, means that you make it executable) and we run it using `./linpeas.sh`.**
 
 <img src="images/lin.png">
 
-**When we check the SUID permissions, we see that there is a SUID bit set which is a %95 privilege escalation vector**
+**When we check the SUID permissions, we see that there is a SUID bit set which is a %95 privilege escalation vector.**
 
 <img src="images/suid.png">
 
@@ -140,7 +140,7 @@ Host script results:
 
 <img src="images/root.png">
 
-**Using `cat /root/root.txt` gives use the last flag needed to complete the room**
+**Using `cat /root/root.txt` gives use the last flag needed to complete the room.**
 
 <img src="images/roottxt.png">
 
