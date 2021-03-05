@@ -130,8 +130,19 @@ Host script results:
 
 **Let's head to GTFObins, look for env and we see;**
 
-<img src="env.png">
+<img src="images/env.png">
 
+**Lets look for the path where /env is located. NOw let's execute the command by replacing ./env with /usr/bin/env;**
+ 
+<img src="images/env.png">
+
+**Once executed, we get root!!
+
+<img src="images/root.png">
+
+**Using `cat /root/root.txt` gives use the last flag needed to complete the room**
+
+<img src="images/roottxt.png">
 
 
 
