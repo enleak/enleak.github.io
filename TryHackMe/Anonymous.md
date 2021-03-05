@@ -64,11 +64,15 @@ Host script results:
 |_  start_date: N/A
 
 ````
+## Enumerating FTP Service
 
 - **First thing we notice is that theres an anonymous login for the ftp service allowed. So we jump straight into that and use;**
 
 <img src="images/ftp.png">
-    
+
+**We `ls -la` and find 3 files on this machine. We use the `get` command to transfer these files to our host machine.**
+
+<img src="/images/ftpfiles.png">
    
 
 
