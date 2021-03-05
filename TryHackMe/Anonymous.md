@@ -124,6 +124,17 @@ Host script results:
 
 <img src="images/lin.png">
 
+**When we check the SUID permissions, we see that there is a SUID bit set which is a %95 privilege escalation vector**
+
+<img src="images/suid.png">
+
+**Let's head to GTFObins, look for env and we see;**
+
+<img src="env.png">
+
+
+
+
 
 
 
