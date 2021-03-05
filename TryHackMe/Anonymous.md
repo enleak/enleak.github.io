@@ -81,6 +81,15 @@ Host script results:
 **We then cat the other 2 files (clean.sh and removes_files.log) and see;**
 
 <img src="images/otherfiles.png">
+
+## Enumerating SMB
+
+**We notice that SMB is running on that target machine on port 445**
+**We use an nmap script to list the shares, the share name were looking for is "pics"**
+
+<img src="images/smbpics.png">
+
+
    
 
 
