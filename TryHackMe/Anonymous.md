@@ -68,7 +68,7 @@ Host script results:
 ## Enumerating SMB
 
 **We notice that SMB is running on that target machine on port 445.**
-**We use an nmap script to list the shares, the share name we're looking for is "pics".**
+**We use an nmap script to list the shares, the share name we're looking for is "pics" because "Anonymous access allows us the READ permission".**
 
 <img src="images/smbpics.png">
 
