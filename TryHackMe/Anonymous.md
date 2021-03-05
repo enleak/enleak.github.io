@@ -103,6 +103,15 @@ Host script results:
 
 <img src="images/bash.png">
 
+**We then replace the clean.sh file in their machine with ours useing `put clean.sh clean.sh`**
+
+<img src="images/replace.png">
+
+**Now we quickly set up our netcat listener using `nc -nvlp 11234`, once the kronjob runs our python script we get a reverse shell!!**
+
+<img src="images/reverse.png">
+
+
 
 
 
