@@ -1,6 +1,6 @@
-# CTF Writeups
+# CTF Writeups  <img src="TryHackMe/images/enleak.png">
 
- <img src="TryHackMe/images/enleak.png">
+
  
 Collection of all the writeups that I have written for each and every room/machine that I have solved.
 
