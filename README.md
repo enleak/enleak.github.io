@@ -1,4 +1,6 @@
-# CTF Writeups  <img src="TryHackMe/images/enleak.png">
+                                                                                  # CTF Writeups  
+
+<img src="TryHackMe/images/enleak.png">
 
 
  
