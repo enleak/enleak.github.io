@@ -4,11 +4,7 @@ Collection of all the writeups that I have written for each and every room/machi
 
 ### Author
 
-[backy](https://www.hackthebox.eu/home/users/profile/492944)
-
-### HTB Team
-
-[utopia]()
+[enleak](https://tryhackme.com/p/enleak)
 
 
 | Number | Name | Difficulty | OS | Release Date | |
