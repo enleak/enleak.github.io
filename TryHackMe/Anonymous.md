@@ -73,6 +73,14 @@ Host script results:
 **We `ls -la` and find 3 files on this machine. We use the `get` command to transfer these files to our host machine.**
 
 <img src="images/ftpfiles.png">
+
+**Now that we have the txt file on our host machine we can `cat` it. When we `cat to_do.txt` we get a message**
+
+<img src="images/todotxt.png">
+
+**We then cat the other 2 files (clean.sh and removes_files.log) and see;**
+
+<img src="images/otherfiles.png">
    
 
 
