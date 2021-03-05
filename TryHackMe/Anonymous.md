@@ -83,7 +83,7 @@ Host script results:
 
 ## Enumerating FTP Service
 
-- **First thing we notice is that theres an anonymous login for the ftp service allowed. So we jump straight into that and use;**
+- **First thing we notice is that theres an anonymous login for the ftp service allowed. So we jump straight into that and use anonymous:anonymous as the credentials;**
 
 <img src="images/ftp.png">
 
