@@ -99,6 +99,12 @@ Host script results:
 
 <img src="images/otherfiles.png">
 
+**We take a closer look at the clean.sh and notice that it is a kronjob running on their machine. We try to modify the clean.sh file with a python reverse shell to see if its works**
+
+<img src="images/bash.png">
+
+
+
 
 
 
