@@ -142,7 +142,7 @@ Host script results:
 
 ## Root
 
-**Once executed, we get root!!
+**Once executed, we get root!!**
 
 <img src="images/root.png">
 
