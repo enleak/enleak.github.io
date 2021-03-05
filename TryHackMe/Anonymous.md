@@ -65,9 +65,11 @@ Host script results:
 
 ````
 
-- First thing we notice is that theres an anonymous login for the ftp service allowed. So we jump straight into that and use;
-    - dfjmndfdf
-    - 
+- **First thing we notice is that theres an anonymous login for the ftp service allowed. So we jump straight into that and use;**
+
+<img src="images/ftp.png">
+    
+   
 
 
 
