@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# CTF Writeups
 
-You can use the [editor on GitHub](https://github.com/enleak/enleak.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Collection of all the writeups that I have written for each and every room/machine that I have solved.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Author
 
-### Markdown
+[backy](https://www.hackthebox.eu/home/users/profile/492944)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### HTB Team
 
-```markdown
-Syntax highlighted code block
+[utopia]()
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/enleak/enleak.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Number | Name | Difficulty | OS | Release Date | |
+| --- | --- | --- | --- | --- | --- |
+| 001 | Blackfield | Hard | Windows | 6/06/2020 | [Walk-through](./ctfs/blackfield.md) |
+| 002 | Laboratory | Easy | Linux   | 11/14/2020 | [Walk-through](./ctfs/laboratory.md) |
