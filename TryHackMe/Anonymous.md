@@ -74,7 +74,7 @@ Host script results:
 
 <img src="images/ftpfiles.png">
 
-**Now that we have the txt file on our host machine we can `cat` it. When we `cat to_do.txt` we get a message**
+**Now that we have the txt file on our host machine we can `cat` it. When we `cat to_do.txt` we get a message.**
 
 <img src="images/todotxt.png">
 
@@ -84,13 +84,13 @@ Host script results:
 
 ## Enumerating SMB
 
-**We notice that SMB is running on that target machine on port 445**
-**We use an nmap script to list the shares, the share name were looking for is "pics"**
+**We notice that SMB is running on that target machine on port 445.**
+**We use an nmap script to list the shares, the share name were looking for is "pics".**
 
 <img src="images/smbpics.png">
 
-**We use `smbclient //$IP/pics -N` to login and `ls` to list the files** 
-*Smbclient is useful tool to test connectivity to a Windows share. It can be used to transfer files, or to look at share names*
+**We use `smbclient //$IP/pics -N` to login and `ls` to list the files.** 
+(*Smbclient is useful tool to test connectivity to a Windows share. It can be used to transfer files, or to look at share names*)
 
 <img src="smbclient.png">
 
