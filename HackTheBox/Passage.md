@@ -132,13 +132,49 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![gig](https://user-images.githubusercontent.com/55566953/110197714-6d6cdd80-7e1b-11eb-9447-2ba85440661c.PNG)
 
-**We can intercept the POST request using a tool called** [BurpSuite](https://portswigger.net/burp/documentation/desktop/penetration-testing) **and add the `GIF8` magic byte into the Reverse Shell**
+**We can intercept the POST request using a tool called** [BurpSuite](https://portswigger.net/burp/documentation/desktop/penetration-testing) **and add the `GIF8` magic byte into the Reverse Shell.**
 
 ![burp](https://user-images.githubusercontent.com/55566953/110197892-7f02b500-7e1c-11eb-8d1b-ab243fde5511.PNG)
 
 **We get a notification letting us know that the upload was successful!**
 
 ![success](https://user-images.githubusercontent.com/55566953/110197923-af4a5380-7e1c-11eb-85e9-1d23636424f0.PNG)
+
+**Let's set uup a netcat listener using the same `$PORT` we specified for the PHP Reverse Shell using the command `nc -nvlp $PORT`**
+
+![nc](https://user-images.githubusercontent.com/55566953/110198044-a1490280-7e1d-11eb-8caf-9401729c3875.PNG)
+
+**Now I manually head to where the shell was uploaded, in this case; `/uploads/shell.php` and we get a shell!!**
+
+![id](https://user-images.githubusercontent.com/55566953/110198104-06045d00-7e1e-11eb-9853-46fb97ce7d23.PNG)
+
+
+**It's always good measure to stabalize a shell! [RopNop Blog](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/) states that "shells have other shortcomings as well:
+
+Some commands, like su and ssh require a proper terminal to run
+STDERR usually isn’t displayed
+Can’t properly use text editors like vim
+No tab-complete
+No up arrow history
+No job control
+Etc…"**
+
+**On his blog we can also find a way to use Python to "to spawn a pty. The pty module let’s you spawn a psuedo-terminal that can fool commands like su into thinking they are being executed in a proper terminal." The command used is;**
+
+![python](https://user-images.githubusercontent.com/55566953/110198200-bbcfab80-7e1e-11eb-817f-626be7ac91bb.PNG)
+
+**Once executed, it'll look like this;**
+
+![data](https://user-images.githubusercontent.com/55566953/110198235-f89ba280-7e1e-11eb-9f6f-e60e75451ecf.PNG)
+
+
+
+
+
+
+
+
+
 
 
 
