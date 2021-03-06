@@ -2,7 +2,7 @@
 
 ### Reconnaissance
 
-**Scanning the network for open ports and services using `nmap -sC -sV -v -oN nmap.txt`.**
+ -**Scanning the network for open ports and services using `nmap -sC -sV -v -oN nmap.txt`.**
   -`-sC` to scan with default NSE scripts
   -`-sV` for service version info
   -`-v` for verbose mode
