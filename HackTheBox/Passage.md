@@ -89,7 +89,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![zap](https://user-images.githubusercontent.com/55566953/110192781-40f69880-7dfe-11eb-9c01-f7ee36aab465.PNG)
 
-**The scan results greet us with a whole list of URLS, one in particular looks very interesting; `"CuteNews".`**
+**Luckily the scan results greet us with a whole list of URLS, one in particular looks very interesting; `"CuteNews".`**
 
 ![zapr](https://user-images.githubusercontent.com/55566953/110192852-aba7d400-7dfe-11eb-86a9-29266d3fa9ae.PNG)
 
