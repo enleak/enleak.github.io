@@ -96,6 +96,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 ![mana](https://user-images.githubusercontent.com/55566953/110193223-d98e1800-7e00-11eb-8880-e42e4ff78172.PNG)
 
 **The footer of the web page reveals the version of the CuteNews service running, let's google it and see if there are any known vulnerabilities/exploits.**
+
 ![2 1 2](https://user-images.githubusercontent.com/55566953/110193411-b3b54300-7e01-11eb-9650-1ccf20158af0.PNG)
 
 
