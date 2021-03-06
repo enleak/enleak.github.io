@@ -3,10 +3,10 @@
 ### Reconnaissance
 
 **Scanning the network for open ports and services using `nmap -sC -sV -v -oN nmap.txt`.**
-`-sC` to scan with default NSE scripts
-`-sV` for service version info
-`-v` for verbose mode
-`-oN` to output scan 
+-`-sC` to scan with default NSE scripts
+-`-sV` for service version info
+-`-v` for verbose mode
+-`-oN` to output scan 
 `````
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-03-05 21:30 EST
 NSE: Loaded 153 scripts for scanning.
