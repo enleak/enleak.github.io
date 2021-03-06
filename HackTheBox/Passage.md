@@ -117,9 +117,15 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![medium](https://user-images.githubusercontent.com/55566953/110194165-12c88700-7e05-11eb-9157-b832a9fe4cd3.PNG)
 
-**"No matter how big the uploaded file is it doesn’t check on the size of the file this allows an attacker to use large files like a PHP reverse shell file”. Based on this, we're going to upload a php. Pentestmonkey has a [php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) ready for us to use!**
+**"No matter how big the uploaded file is it doesn’t check on the size of the file this allows an attacker to use large files like a PHP reverse shell file”. Based on this, we're going to upload a php reverse shell. Pentestmonkey has a [php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) ready for us to use!**
 
 ## Reverse Shell
+
+**This php reverse shell will be saved to a file named `shell.php` with the modified `$IP` and `$PORT`.**
+**`$IP = Your VPN's IP Address` (Your tun0, find it by executing `ifconfig tun0` on your local machine).**
+**`$PORT = Port you want to listen on.`**
+
+
 
 
 
