@@ -243,6 +243,27 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![+x](https://user-images.githubusercontent.com/55566953/110214050-c9ae1c80-7e70-11eb-8695-53ea55e00933.PNG)
 
+**Sadly the linpeas scan didn't return much so let's keep enumerating. We do `ls la` and find the hidden file called `.viminfo` which reveals a process running on the machine??**
+
+![ubu](https://user-images.githubusercontent.com/55566953/110214262-ce270500-7e71-11eb-9b71-7b83cc01a6a5.PNG)
+
+## USBCreator D-Bus
+
+**A quick Google search of `USBCreator D-Bus` we get a [USBCreator D-Bus Privilege Escalation in Ubuntu Desktop Article](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/) explaining how to escelate privileges by exploiting a vulnerability in `USBCreator D-Bus`.**
+
+**If we inspect this process, we can see that it has root privileges!?**
+
+![cret](https://user-images.githubusercontent.com/55566953/110214439-79d05500-7e72-11eb-8217-2342ca2ca25b.PNG)
+
+
+
+
+
+
+
+
+
+
 
 
 
