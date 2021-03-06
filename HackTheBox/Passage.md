@@ -179,6 +179,22 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![decode](https://user-images.githubusercontent.com/55566953/110199098-a3628f80-7e24-11eb-9ca2-c2af38d334c8.PNG)
 
+**How do we know which user(s) we need the credentials for? While browsing earlier we also ran into a directory with two users in `/var/lib/AccountsService/users`;**
+
+![users](https://user-images.githubusercontent.com/55566953/110199205-47e4d180-7e25-11eb-835e-c4d7e1912735.PNG)
+
+**The user, email, and passowrd hash was stored in this data! Let's grab the hash and use [`hash-identifier`](https://tools.kali.org/password-attacks/hash-identifier)( a tool that identifies different types of hashes).**
+
+![black](https://user-images.githubusercontent.com/55566953/110199514-b8402280-7e26-11eb-8226-c17acad73661.PNG)
+
+
+
+
+
+
+
+
+
 
 
 
