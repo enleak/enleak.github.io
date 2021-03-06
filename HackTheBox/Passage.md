@@ -107,11 +107,24 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 ![php](https://user-images.githubusercontent.com/55566953/110193750-db0d0f80-7e03-11eb-9622-d021e12207d8.PNG)
 
 
-**The footer of the web page reveals the version of the CuteNews service running, let's google it and see if there are any known vulnerabilities/exploits.**
+**The footer of the web page reveals the version of the CuteNews service running, let's google it and see if there are any version exploits for `CuteNews 2.1.2`.**
 
 ![2 1 2](https://user-images.githubusercontent.com/55566953/110193411-b3b54300-7e01-11eb-9650-1ccf20158af0.PNG)
 
 ## Scouting for Vulnerability 
+
+**We find a ["CuteNews 2.1.2 Remote Code Execution Vulnerability Medium Article"](https://musyokaian.medium.com/cutenews-2-1-2-remote-code-execution-vulnerability-450f29673194) was found explaining the exploit in depth.**
+
+![medium](https://user-images.githubusercontent.com/55566953/110194165-12c88700-7e05-11eb-9157-b832a9fe4cd3.PNG)
+
+**"No matter how big the uploaded file is it doesn’t check on the size of the file this allows an attacker to use large files like a PHP reverse shell file”. Based on this, we're going to upload a php. Pentestmonkey has a [php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) ready for us to use!**
+
+
+
+
+
+
+
 
 
 
