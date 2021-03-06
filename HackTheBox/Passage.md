@@ -227,6 +227,12 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ## Navad@Passage
 
+https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
+
+https://unit42.paloaltonetworks.com/wp-content/uploads/2019/07/word-image-30.png
+
+
+
 
 
 
