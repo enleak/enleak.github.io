@@ -175,6 +175,14 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![HASH](https://user-images.githubusercontent.com/55566953/110198871-8083ab80-7e23-11eb-9637-4928b904dbc0.PNG)
 
+**In order to decode this encoded data we';; use the `echo` command. The command is `echo $base64string | base64 -d`, you can find this at [How can I decode a base64 string from the command line?](https://askubuntu.com/questions/178521/how-can-i-decode-a-base64-string-from-the-command-line).**
+
+![decode](https://user-images.githubusercontent.com/55566953/110199098-a3628f80-7e24-11eb-9ca2-c2af38d334c8.PNG)
+
+
+
+
+
 
 
 
