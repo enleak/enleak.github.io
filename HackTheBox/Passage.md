@@ -195,7 +195,10 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 3. hash - The hash you want cracked
 4. passowrd list- Any password 
 
-**The command used was `sudo hashcat -a 0 -m 1400 hash /opt/rockyou.txt` 
+**The command used was `sudo hashcat -a 0 -m 1400 hash /opt/rockyou.txt`, we were able to retrieve the clear text password!!**
+
+![atlanta](https://user-images.githubusercontent.com/55566953/110199918-dd359500-7e28-11eb-9211-c066aca8e784.PNG)
+
 
 
 
