@@ -127,6 +127,9 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![jjjj](https://user-images.githubusercontent.com/55566953/110197314-c71fd880-7e18-11eb-8831-586b18adf17a.PNG)
 
+**Before uploading the reverse shell we need to take a closer look at the medium article that was mentioned earlier, we'll see that CuteNews uses magic bytes to validate the type of file being uploaded (Magic byte is nothing but the first few bytes of a file which is used to recognize a file).**
+**GIF8;Which are the magic bytes of a GIF image will be edited into the php reverse shell in order to make is seem like it s a harmless gif file**
+
 
 
 
