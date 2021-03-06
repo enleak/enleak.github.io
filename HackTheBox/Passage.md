@@ -215,9 +215,28 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![idr](https://user-images.githubusercontent.com/55566953/110200275-1838c800-7e2b-11eb-97a7-b3b85b1a425a.PNG)
 
-**"The authorized_keys file in SSH specifies the SSH keys that can be used for logging into the user account for which the file is configured".** Knowing this we `cat` the `authorized_keys` file ans see that the private key belongs to the user `navad`.**
+**"The authorized_keys file in SSH specifies the SSH keys that can be used for logging into the user account for which the file is configured". Knowing this we `cat` the `authorized_keys` file and see that the private key belongs to the user `navad`.**
 
 ![navad](https://user-images.githubusercontent.com/55566953/110200439-16bbcf80-7e2c-11eb-93c2-2cf4e200e334.PNG)
+
+** We can authenticate as user nadav by getting a hold of the private key (which we have). The private key or `id_rsa` looks like this**
+
+![id_](https://user-images.githubusercontent.com/55566953/110200591-c729d380-7e2c-11eb-9e01-33ba36da2566.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Navad@Passage
 
 
 
