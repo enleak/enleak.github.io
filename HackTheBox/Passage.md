@@ -113,7 +113,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ## Scouting for Vulnerability 
 
-**We find a ["CuteNews 2.1.2 Remote Code Execution Vulnerability Medium Article"](https://musyokaian.medium.com/cutenews-2-1-2-remote-code-execution-vulnerability-450f29673194) was found explaining the exploit in depth.**
+**A ["CuteNews 2.1.2 Remote Code Execution Vulnerability"](https://musyokaian.medium.com/cutenews-2-1-2-remote-code-execution-vulnerability-450f29673194) Medium Article was found explaining the exploit in depth.**
 
 ![medium](https://user-images.githubusercontent.com/55566953/110194165-12c88700-7e05-11eb-9157-b832a9fe4cd3.PNG)
 
