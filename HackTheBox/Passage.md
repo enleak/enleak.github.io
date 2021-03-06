@@ -237,7 +237,18 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 **To execute the file transfer;**
 
-![wgett](https://user-images.githubusercontent.com/55566953/110213944-455b9980-7e70-11eb-8859-81dd006961c1.PNG) ![linlin](https://user-images.githubusercontent.com/55566953/110213967-6623ef00-7e70-11eb-89d8-aa723cdd74e9.PNG)
+![linlin](https://user-images.githubusercontent.com/55566953/110213967-6623ef00-7e70-11eb-89d8-aa723cdd74e9.PNG) ![wgett](https://user-images.githubusercontent.com/55566953/110213944-455b9980-7e70-11eb-8859-81dd006961c1.PNG) 
+
+**Now, make the `linpeas.sh` file you transferred executable by using `chmod +x linpeas.sh`.**
+
+![+x](https://user-images.githubusercontent.com/55566953/110214050-c9ae1c80-7e70-11eb-8695-53ea55e00933.PNG)
+
+
+
+
+
+
+
 
 
 
