@@ -87,7 +87,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 **The scan results greet us with a whole list of URLS, one in particular looks very interesting; `"CuteNews".`**
 ![zapr](https://user-images.githubusercontent.com/55566953/110192852-aba7d400-7dfe-11eb-86a9-29266d3fa9ae.PNG)
 
-## CuteNews Web-Page
+## CuteNews Web-Page Discovery
 
 **Visiting `http://$IP/CuteNews/` shows us a login/registration page!**
 ![cutenews](https://user-images.githubusercontent.com/55566953/110193160-45bc4c00-7e00-11eb-963d-a5261cee3b47.PNG)
@@ -98,6 +98,8 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 **The footer of the web page reveals the version of the CuteNews service running, let's google it and see if there are any known vulnerabilities/exploits.**
 
 ![2 1 2](https://user-images.githubusercontent.com/55566953/110193411-b3b54300-7e01-11eb-9650-1ccf20158af0.PNG)
+
+## Scouting for Vulnerability 
 
 
 
