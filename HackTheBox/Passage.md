@@ -223,20 +223,11 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![id_](https://user-images.githubusercontent.com/55566953/110200591-c729d380-7e2c-11eb-9e01-33ba36da2566.PNG)
 
-
-
-
-
-
-
-
-
-
-
-
-
+**We now save this private key into a file in our local system and name it `navadkey`. I gave the “id_rsa” file “600” or “rw” permissions by using `chmod +600 navadkey`.**
 
 ## Navad@Passage
+
+
 
 
 
