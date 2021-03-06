@@ -157,7 +157,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
  4. No tab-complete
  5. No up arrow history
  6. No job control
- 7. Etc…"**
+ 7. Etc…"
 
 **On his blog we can also find a way to use Python to "to spawn a pty. The pty module let’s you spawn a psuedo-terminal that can fool commands like su into thinking they are being executed in a proper terminal." The command used is;**
 
@@ -166,6 +166,17 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 **Once executed, it'll look like this;**
 
 ![data](https://user-images.githubusercontent.com/55566953/110198235-f89ba280-7e1e-11eb-9f6f-e60e75451ecf.PNG)
+
+## WWW-Data@Passage
+
+**Now that this shell is stable lets do some enumeration and look for interesting files that could eventualy help us get root. The first directory I look at is the `/var` directory. Why? This directory contains variable data files, email-in-boxes, web application related files, cron files, and more. In this case, I looked for a CuteNews directory containing all the important web application files (searching for credentials to piviot either horizontally or vertically).**
+
+**After looking around for a while, I found myself a `/users` directory located in `/var/www/html/CuteNews/cdata/users`. In this directory we were able to find some base 64 encoded data!?**
+
+![HASH](https://user-images.githubusercontent.com/55566953/110198871-8083ab80-7e23-11eb-9637-4928b904dbc0.PNG)
+
+
+
 
 
 
