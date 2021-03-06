@@ -206,7 +206,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ## Paul@Passage
 
-**Using these credentials we're able to `su`
+**Using these credentials we're able to `su`**
 
 ![paul](https://user-images.githubusercontent.com/55566953/110200096-233f2880-7e2a-11eb-8c49-7eb5df46ac4c.PNG)
 
@@ -214,6 +214,11 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![idr](https://user-images.githubusercontent.com/55566953/110200275-1838c800-7e2b-11eb-97a7-b3b85b1a425a.PNG)
+
+**"The authorized_keys file in SSH specifies the SSH keys that can be used for logging into the user account for which the file is configured".** Knowing this we `cat` the `authorized_keys` file ans see that the private key belongs to the user `navad`.**
+
+![navad](https://user-images.githubusercontent.com/55566953/110200439-16bbcf80-7e2c-11eb-93c2-2cf4e200e334.PNG)
+
 
 
 
