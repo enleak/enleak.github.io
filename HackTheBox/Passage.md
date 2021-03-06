@@ -77,7 +77,10 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 *Some more information regarding Fail2Bin found on their site: https://www.fail2ban.org/wiki/index.php/Main_Page*
 ![fail2bin](https://user-images.githubusercontent.com/55566953/110192591-08a28a80-7dfd-11eb-9f94-57e096e5d3a4.PNG)
 
-**Knowing this information let's us know that there might be some sort of login page on this machne.**
+**This let's us know that a Gobuster scan will not work. However, we try it anyways using `gobuster dir -u http://$IP/index.php -w /opt/directory-list-2.3-medium.txt --wildcard -x php` and the connection is refused as expected.**
+![bt](https://user-images.githubusercontent.com/55566953/110192984-63d57c80-7dff-11eb-9ae7-eca118bfe480.PNG)
+
+**Knowing all this information hints that there might be some sort of login page on this machine.**
 **Now let's open up OWASP Zap and paste the URL into the Spider tool which "is used to automatically discover new resources/URLs on your website".**
 ![zap](https://user-images.githubusercontent.com/55566953/110192781-40f69880-7dfe-11eb-9c01-f7ee36aab465.PNG)
 
