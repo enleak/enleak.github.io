@@ -122,8 +122,12 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 ## Reverse Shell
 
 **This php reverse shell will be saved to a file named `shell.php` with the modified `$IP` and `$PORT`.**
-**`$IP = Your VPN's IP Address` (Your tun0, find it by executing `ifconfig tun0` on your local machine).**
-**`$PORT = Port you want to listen on.`**
+*`$IP = Your VPN's IP Address` (Your tun0, find it by executing `ifconfig tun0` on your local machine).*
+*`$PORT = Port you want to listen on.`*
+
+![jjjj](https://user-images.githubusercontent.com/55566953/110197314-c71fd880-7e18-11eb-8831-586b18adf17a.PNG)
+
+
 
 
 
