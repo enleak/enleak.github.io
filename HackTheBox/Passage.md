@@ -98,11 +98,11 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![cutenews](https://user-images.githubusercontent.com/55566953/110193160-45bc4c00-7e00-11eb-963d-a5261cee3b47.PNG)
 
-**Registering for an account gives us access to the "Cute News Management System Dashboard"**
+**Registering for an account gives us access to the "Cute News Management System Dashboard".**
 
 ![mana](https://user-images.githubusercontent.com/55566953/110193223-d98e1800-7e00-11eb-8880-e42e4ff78172.PNG)
 
-**and "Personal Options"**
+**and "Personal Options/General Options".**
 
 ![php](https://user-images.githubusercontent.com/55566953/110193750-db0d0f80-7e03-11eb-9622-d021e12207d8.PNG)
 
