@@ -219,7 +219,7 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![navad](https://user-images.githubusercontent.com/55566953/110200439-16bbcf80-7e2c-11eb-93c2-2cf4e200e334.PNG)
 
-** We can authenticate as user nadav by getting a hold of the private key (which we have). The private key or `id_rsa` looks like this**
+**We can authenticate as user nadav by getting a hold of the private key (which we have). The private key or `id_rsa` looks like this**
 
 ![id_](https://user-images.githubusercontent.com/55566953/110200591-c729d380-7e2c-11eb-9e01-33ba36da2566.PNG)
 
