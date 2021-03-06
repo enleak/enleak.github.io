@@ -66,17 +66,28 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ## Enumerating Port 80
 
-**Visiting the site http://$IP greets us with a login/registration page**
-
-**Once logged in we see the Passage News page that contains a bunch of gibberish except the only comment made by admin mentioning something called "Fail2Ban"**
+**Visiting the site http://$IP greets us with a "Passage News" page.**
+**Once logged in we see the Passage News page that contains a bunch of gibberish except the only comment made by admin mentioning something called "Fail2Ban".**
 ![passage](https://user-images.githubusercontent.com/55566953/110192348-76e64d80-7dfb-11eb-9759-2bf66c9d14ec.PNG)
 
 **Reading the comment let's us know that Fail2Ban "bans an IP for 2 mins due to excessive requests"**
 ![comment](https://user-images.githubusercontent.com/55566953/110192399-e3614c80-7dfb-11eb-9046-d3d893de7d9e.PNG)
 
-**Googling Fail2Bin tells us that `"Fail2Ban is an intrusion prevention software framework that protects computer servers from brute-force attacks"`**
+**Googling Fail2Bin tells us that `"Fail2Ban is an intrusion prevention software framework that protects computer servers from brute-force attacks."`**
 *Some more information regarding Fail2Bin found on their site: https://www.fail2ban.org/wiki/index.php/Main_Page*
 ![fail2bin](https://user-images.githubusercontent.com/55566953/110192591-08a28a80-7dfd-11eb-9f94-57e096e5d3a4.PNG)
+
+**Knowing this information let's us know that there might be some sort of login page on this machne.**
+**Now let's open up OWASP Zap and paste the URL into the Spider tool which "is used to automatically discover new resources/URLs on your website".**
+![zap](https://user-images.githubusercontent.com/55566953/110192781-40f69880-7dfe-11eb-9c01-f7ee36aab465.PNG)
+
+**The scan results greet us with a whole list of URLS, one in particular looks very interesting; `"CatNews".`**
+![zapr](https://user-images.githubusercontent.com/55566953/110192852-aba7d400-7dfe-11eb-86a9-29266d3fa9ae.PNG)
+
+
+
+
+
 
 
 
