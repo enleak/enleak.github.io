@@ -151,13 +151,13 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 **It's always good measure to stabalize a shell! [RopNop Blog](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/) states that "shells have other shortcomings as well:**
 
- 1.some commands, like su and ssh require a proper terminal to run
- 2.STDERR usually isn’t displayed
- 3.Can’t properly use text editors like vim
- 4.No tab-complete
- 5.No up arrow history
- 6.No job control
- 7.Etc…"**
+ 1. some commands, like su and ssh require a proper terminal to run
+ 2. STDERR usually isn’t displayed
+ 3. Can’t properly use text editors like vim
+ 4. No tab-complete
+ 5. No up arrow history
+ 6. No job control
+ 7. Etc…"**
 
 **On his blog we can also find a way to use Python to "to spawn a pty. The pty module let’s you spawn a psuedo-terminal that can fool commands like su into thinking they are being executed in a proper terminal." The command used is;**
 
