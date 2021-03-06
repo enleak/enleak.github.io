@@ -132,7 +132,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![gig](https://user-images.githubusercontent.com/55566953/110197714-6d6cdd80-7e1b-11eb-9447-2ba85440661c.PNG)
 
-**We can intercept the POST request using a tool called**[BurpSuite](https://portswigger.net/burp/documentation/desktop/penetration-testing) **and add the `GIF8` magic byte into the Reverse Shell**
+**We can intercept the POST request using a tool called** [BurpSuite](https://portswigger.net/burp/documentation/desktop/penetration-testing) **and add the `GIF8` magic byte into the Reverse Shell**
 
 ![burp](https://user-images.githubusercontent.com/55566953/110197892-7f02b500-7e1c-11eb-8d1b-ab243fde5511.PNG)
 
