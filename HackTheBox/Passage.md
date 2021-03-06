@@ -70,10 +70,10 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 **Once logged in we see the Passage News page that contains a bunch of gibberish except the only comment made by admin mentioning something called "Fail2Ban".**
 ![passage](https://user-images.githubusercontent.com/55566953/110192348-76e64d80-7dfb-11eb-9759-2bf66c9d14ec.PNG)
 
-**Reading the comment let's us know that Fail2Ban "bans an IP for 2 mins due to excessive requests"**
+**Reading the comment let's us know that Fail2Ban "bans an IP for 2 mins due to excessive requests".**
 ![comment](https://user-images.githubusercontent.com/55566953/110192399-e3614c80-7dfb-11eb-9046-d3d893de7d9e.PNG)
 
-**Googling Fail2Bin tells us that `"Fail2Ban is an intrusion prevention software framework that protects computer servers from brute-force attacks."`**
+**Googling Fail2Bin tells us that `"Fail2Ban is an intrusion prevention software framework that protects computer servers from brute-force attacks".`**
 *Some more information regarding Fail2Bin found on their site: https://www.fail2ban.org/wiki/index.php/Main_Page*
 ![fail2bin](https://user-images.githubusercontent.com/55566953/110192591-08a28a80-7dfd-11eb-9f94-57e096e5d3a4.PNG)
 
