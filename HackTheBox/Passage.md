@@ -84,8 +84,24 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 **Now let's open up OWASP Zap and paste the URL into the Spider tool which "is used to automatically discover new resources/URLs on your website".**
 ![zap](https://user-images.githubusercontent.com/55566953/110192781-40f69880-7dfe-11eb-9c01-f7ee36aab465.PNG)
 
-**The scan results greet us with a whole list of URLS, one in particular looks very interesting; `"CatNews".`**
+**The scan results greet us with a whole list of URLS, one in particular looks very interesting; `"CuteNews".`**
 ![zapr](https://user-images.githubusercontent.com/55566953/110192852-aba7d400-7dfe-11eb-86a9-29266d3fa9ae.PNG)
+
+## CuteNews Web-Page
+
+**Visiting `http://$IP/CuteNews/` shows us a login/registration page!**
+![cutenews](https://user-images.githubusercontent.com/55566953/110193160-45bc4c00-7e00-11eb-963d-a5261cee3b47.PNG)
+
+**Registering for an account gives us access to the "Cute News Management System"**
+![mana](https://user-images.githubusercontent.com/55566953/110193223-d98e1800-7e00-11eb-8880-e42e4ff78172.PNG)
+
+**The footer of the web page reveals the version of the CuteNews service running, let's google it and see if there are any known vulnerabilities/exploits.**
+![2 1 2](https://user-images.githubusercontent.com/55566953/110193411-b3b54300-7e01-11eb-9650-1ccf20158af0.PNG)
+
+
+
+
+
 
 
 
