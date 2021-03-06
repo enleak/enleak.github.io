@@ -1,5 +1,6 @@
 ![passage logo](https://user-images.githubusercontent.com/55566953/110192011-a3996580-7df9-11eb-8032-ddf84d0dcb95.png)
 
+
 ### Reconnaissance
 
  **Scanning the network for open ports and services using `nmap -sC -sV -v -oN nmap.txt`.**
@@ -64,7 +65,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 `````
 
-## Enumerating Port 80
+### Enumerating Port 80
 
 **Visiting the site http://$IP greets us with a "Passage News" page.**
 **Once logged in we see the Passage News page that contains a bunch of gibberish except the only comment made by admin mentioning something called "Fail2Ban".**
@@ -92,7 +93,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![zapr](https://user-images.githubusercontent.com/55566953/110192852-aba7d400-7dfe-11eb-86a9-29266d3fa9ae.PNG)
 
-## CuteNews Web-Page Discovery
+### CuteNews Web-Page Discovery
 
 **Visiting `http://$IP/CuteNews/` shows us a login/registration page!**
 
@@ -111,7 +112,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![2 1 2](https://user-images.githubusercontent.com/55566953/110193411-b3b54300-7e01-11eb-9650-1ccf20158af0.PNG)
 
-## Scouting for Vulnerability 
+### Scouting for Vulnerability 
 
 **A ["CuteNews 2.1.2 Remote Code Execution Vulnerability"](https://musyokaian.medium.com/cutenews-2-1-2-remote-code-execution-vulnerability-450f29673194) Medium Article was found explaining the exploit in depth.**
 
@@ -119,7 +120,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 **"No matter how big the uploaded file is it doesn’t check on the size of the file this allows an attacker to use large files like a PHP reverse shell file”. Based on this, we're going to upload a php reverse shell. Pentestmonkey has a [php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) ready for us to use!**
 
-## Reverse Shell
+### Reverse Shell
 
 **This php reverse shell will be saved to a file named `shell.php` with the modified `$IP` and `$PORT`.**
 *`$IP = Your VPN's IP Address` (Your tun0, find it by executing `ifconfig tun0` on your local machine).*
@@ -140,7 +141,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![success](https://user-images.githubusercontent.com/55566953/110197923-af4a5380-7e1c-11eb-85e9-1d23636424f0.PNG)
 
-**Let's set uup a netcat listener using the same `$PORT` we specified for the PHP Reverse Shell using the command `nc -nvlp $PORT`**
+**Let's set up a netcat listener using the same `$PORT` we specified for the PHP Reverse Shell using the command `nc -nvlp $PORT`.**
 
 ![nc](https://user-images.githubusercontent.com/55566953/110198044-a1490280-7e1d-11eb-8caf-9401729c3875.PNG)
 
@@ -167,11 +168,11 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![data](https://user-images.githubusercontent.com/55566953/110198235-f89ba280-7e1e-11eb-9f6f-e60e75451ecf.PNG)
 
-## WWW-Data@Passage
+### WWW-Data@Passage
 
 **Now that this shell is stable lets do some enumeration and look for interesting files that could eventualy help us get root. The first directory I look at is the `/var` directory. Why? This directory contains variable data files, email-in-boxes, web application related files, cron files, and more. In this case, I looked for a CuteNews directory containing all the important web application files (searching for credentials to move either horizontally or vertically).**
 
-## Base 64 Encoded Data
+### Base 64 Encoded Data
 
 **After looking around for a while, I found myself a `/users` directory located in `/var/www/html/CuteNews/cdata/users`. In this directory we were able to find some base 64 encoded data!?**
 
@@ -186,7 +187,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 ![users](https://user-images.githubusercontent.com/55566953/110199205-47e4d180-7e25-11eb-835e-c4d7e1912735.PNG)
 
 
-## HashCat
+### HashCat
 
 **The user, email, and passowrd hash was stored in this data! Let's grab the hash and use [`hash-identifier`](https://tools.kali.org/password-attacks/hash-identifier)( a tool that identifies different types of hashes).**
 
@@ -204,18 +205,18 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![cracked](https://user-images.githubusercontent.com/55566953/110199991-62b94500-7e29-11eb-8a97-fabad1d2c413.PNG)
 
-## Paul@Passage
+### Paul@Passage
 
 **Using these credentials we're able to `su`**
 
 ![paul](https://user-images.githubusercontent.com/55566953/110200096-233f2880-7e2a-11eb-8c49-7eb5df46ac4c.PNG)
 
-**Now we `cd` back into pauls home directory and use `ls -la` which list all files, even hidden files (hidden files which look like “.file”). We are able to see a `.ssh` directory which could contain ssh private keys used to login to other users on a machine (via ssh/port 22 whcih was open if you look at the nmap scan at the beginning of this
+**Now we `cd` back into pauls home directory and use `ls -la` which list all files, even hidden files (hidden files which look like “.file”). We are able to see a `.ssh` directory which could contain ssh private keys used to login to other users on a machine (via ssh/port 22 which was open if you look at the nmap scan at the beginning of this
 writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![idr](https://user-images.githubusercontent.com/55566953/110200275-1838c800-7e2b-11eb-97a7-b3b85b1a425a.PNG)
 
-**"The authorized_keys file in SSH specifies the SSH keys that can be used for logging into the user account for which the file is configured". Knowing this we `cat` the `authorized_keys` file and see that the private key belongs to the user `navad`.**
+**"The authorized_keys file in SSH specifies the SSH keys that can be used for logging into the user account for which the file is configured". Knowing this we `cat` the `authorized_keys` file and see that the private key belongs to the user `nadav`.**
 
 ![navad](https://user-images.githubusercontent.com/55566953/110200439-16bbcf80-7e2c-11eb-93c2-2cf4e200e334.PNG)
 
@@ -223,15 +224,15 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![id_](https://user-images.githubusercontent.com/55566953/110200591-c729d380-7e2c-11eb-9e01-33ba36da2566.PNG)
 
-**We now save this private key into a file in our local system and name it `nadavkey`. I gave the “id_rsa” file “600” or “rw” permissions by using `chmod 600 navadkey`.**
+**We now save this private key into a file in our local system and name it `id_rsa`. I gave the “id_rsa” file “600” or “rw” permissions by using `chmod 600 id_rsa`.**
 
-## Nadav@Passage
+### Nadav@Passage
 
 **Successfully logged in as nadav!**
 
 ![shh](https://user-images.githubusercontent.com/55566953/110213203-fa8c5280-7e6c-11eb-8aaa-a5644040737b.PNG)
 
-## Privilage Escalation
+### Privilage Escalation
  
 **There's a nice tool that might help us escelate privilages called [Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) (tool that searches for possible local privilege escalation paths that you could exploit and print them to you with nice colors so you can recognize the misconfigurations easily). To transfer files from our local linux machine to ssh instance (remote machine) we can use `updog` to spawn a local http webserver (`127.0.0.1:Port`), What is updog? “Updog is a replacement for Python’s SimpleHTTPServer. It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use HTTP basic auth”.**
 
@@ -239,7 +240,7 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![linlin](https://user-images.githubusercontent.com/55566953/110213967-6623ef00-7e70-11eb-89d8-aa723cdd74e9.PNG) ![wgett](https://user-images.githubusercontent.com/55566953/110213944-455b9980-7e70-11eb-8859-81dd006961c1.PNG) 
 
-**Now, make the `linpeas.sh` file you transferred executable by using `chmod +x linpeas.sh`.**
+**Transfer was successful, now , make the `linpeas.sh` file you transferred executable by using `chmod +x linpeas.sh`.**
 
 ![+x](https://user-images.githubusercontent.com/55566953/110214050-c9ae1c80-7e70-11eb-8695-53ea55e00933.PNG)
 
@@ -247,7 +248,7 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![ubu](https://user-images.githubusercontent.com/55566953/110214262-ce270500-7e71-11eb-9b71-7b83cc01a6a5.PNG)
 
-## USBCreator D-Bus Exploitation
+### USBCreator D-Bus Exploitation
 
 **A quick Google search of `USBCreator D-Bus` we get a [USBCreator D-Bus Privilege Escalation in Ubuntu Desktop Article](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/) explaining how to escelate privileges by exploiting a vulnerability in `USBCreator D-Bus`.**
 
@@ -267,7 +268,7 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![2](https://user-images.githubusercontent.com/55566953/110214943-fe23d780-7e74-11eb-8aa6-eb6b8b0107c8.PNG)
 
-## Root
+### Root
 
 **Grab the private key, throw it into a file on my local machine and give it “rw” perms (`chmod 600 id_rsa`) and SSH into the remote root machine!**
 
