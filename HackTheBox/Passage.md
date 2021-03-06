@@ -169,7 +169,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ## WWW-Data@Passage
 
-**Now that this shell is stable lets do some enumeration and look for interesting files that could eventualy help us get root. The first directory I look at is the `/var` directory. Why? This directory contains variable data files, email-in-boxes, web application related files, cron files, and more. In this case, I looked for a CuteNews directory containing all the important web application files (searching for credentials to piviot either horizontally or vertically).**
+**Now that this shell is stable lets do some enumeration and look for interesting files that could eventualy help us get root. The first directory I look at is the `/var` directory. Why? This directory contains variable data files, email-in-boxes, web application related files, cron files, and more. In this case, I looked for a CuteNews directory containing all the important web application files (searching for credentials to move either horizontally or vertically).**
 
 ## Base 64 Encoded Data
 
@@ -177,7 +177,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 ![HASH](https://user-images.githubusercontent.com/55566953/110198871-8083ab80-7e23-11eb-9637-4928b904dbc0.PNG)
 
-**In order to decode this encoded data we';; use the `echo` command. The command is `echo $base64string | base64 -d`, you can find this at [How can I decode a base64 string from the command line?](https://askubuntu.com/questions/178521/how-can-i-decode-a-base64-string-from-the-command-line).**
+**In order to decode this encoded data we use the `echo` command. The command is `echo $base64string | base64 -d`, you can find this at [How can I decode a base64 string from the command line?](https://askubuntu.com/questions/178521/how-can-i-decode-a-base64-string-from-the-command-line).**
 
 ![decode](https://user-images.githubusercontent.com/55566953/110199098-a3628f80-7e24-11eb-9ca2-c2af38d334c8.PNG)
 
@@ -223,13 +223,31 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![id_](https://user-images.githubusercontent.com/55566953/110200591-c729d380-7e2c-11eb-9e01-33ba36da2566.PNG)
 
-**We now save this private key into a file in our local system and name it `navadkey`. I gave the “id_rsa” file “600” or “rw” permissions by using `chmod +600 navadkey`.**
+**We now save this private key into a file in our local system and name it `nadavkey`. I gave the “id_rsa” file “600” or “rw” permissions by using `chmod 600 navadkey`.**
 
-## Navad@Passage
+## Nadav@Passage
 
-https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
+**Successfully logged in as nadav!**
 
-https://unit42.paloaltonetworks.com/wp-content/uploads/2019/07/word-image-30.png
+![shh](https://user-images.githubusercontent.com/55566953/110213203-fa8c5280-7e6c-11eb-8aaa-a5644040737b.PNG)
+
+## Privilage Escalation
+ 
+**There's a nice tool that might help us escelate privilages called [Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) (tool that searches for possible local privilege escalation paths that you could exploit and print them to you with nice colors so you can recognize the misconfigurations easily). To transfer files from our local linux machine to ssh instance (remote machine) we can use `updog` to spawn a local http webserver (`127.0.0.1:Port`), What is updog? “Updog is a replacement for Python’s SimpleHTTPServer. It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use HTTP basic auth”.**
+
+**To execute the file transfer;**
+
+![wgett](https://user-images.githubusercontent.com/55566953/110213944-455b9980-7e70-11eb-8859-81dd006961c1.PNG) ![linlin](https://user-images.githubusercontent.com/55566953/110213967-6623ef00-7e70-11eb-89d8-aa723cdd74e9.PNG)
+
+
+
+
+
+
+
+
+
+
 
 
 
