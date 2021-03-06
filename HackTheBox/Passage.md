@@ -247,13 +247,49 @@ writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
 
 ![ubu](https://user-images.githubusercontent.com/55566953/110214262-ce270500-7e71-11eb-9b71-7b83cc01a6a5.PNG)
 
-## USBCreator D-Bus
+## USBCreator D-Bus Exploitation
 
 **A quick Google search of `USBCreator D-Bus` we get a [USBCreator D-Bus Privilege Escalation in Ubuntu Desktop Article](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/) explaining how to escelate privileges by exploiting a vulnerability in `USBCreator D-Bus`.**
 
 **If we inspect this process, we can see that it has root privileges!?**
 
 ![cret](https://user-images.githubusercontent.com/55566953/110214439-79d05500-7e72-11eb-8217-2342ca2ca25b.PNG)
+
+**In order to get root, we need to follow this screenshot provided by the article linked above.**
+
+![usb](https://user-images.githubusercontent.com/55566953/110214853-8c4b8e00-7e74-11eb-8f4d-d3b446a92825.png)
+
+**Let's use this `gdbus` command to get the `id_rsa` of the root from the root home directory.**
+
+![1](https://user-images.githubusercontent.com/55566953/110214896-d03e9300-7e74-11eb-8b59-e4a8608fdeb1.PNG)
+
+**The key:**
+
+![2](https://user-images.githubusercontent.com/55566953/110214943-fe23d780-7e74-11eb-8aa6-eb6b8b0107c8.PNG)
+
+## Root
+
+**Grab the private key, throw it into a file on my local machine and give it “rw” perms (`chmod 600 id_rsa`) and SSH into the remote root machine!**
+
+![3](https://user-images.githubusercontent.com/55566953/110214958-24497780-7e75-11eb-9540-609a1ad08a4c.PNG)
+
+**Now that we're root we can use `cat root.tct` to get the final flag!**
+
+![4](https://user-images.githubusercontent.com/55566953/110214992-61ae0500-7e75-11eb-98c9-93511c515b04.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
