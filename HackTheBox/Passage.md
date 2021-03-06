@@ -68,13 +68,16 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 **Visiting the site http://$IP greets us with a "Passage News" page.**
 **Once logged in we see the Passage News page that contains a bunch of gibberish except the only comment made by admin mentioning something called "Fail2Ban".**
+
 ![passage](https://user-images.githubusercontent.com/55566953/110192348-76e64d80-7dfb-11eb-9759-2bf66c9d14ec.PNG)
 
 **Reading the comment let's us know that Fail2Ban "bans an IP for 2 mins due to excessive requests".**
+
 ![comment](https://user-images.githubusercontent.com/55566953/110192399-e3614c80-7dfb-11eb-9046-d3d893de7d9e.PNG)
 
 **Googling Fail2Bin tells us that `"Fail2Ban is an intrusion prevention software framework that protects computer servers from brute-force attacks".`**
 *Some more information regarding Fail2Bin found on their site: https://www.fail2ban.org/wiki/index.php/Main_Page*
+
 ![fail2bin](https://user-images.githubusercontent.com/55566953/110192591-08a28a80-7dfd-11eb-9f94-57e096e5d3a4.PNG)
 
 **This let's us know that a Gobuster scan will not work. However, we try it anyways using `gobuster dir -u http://$IP/index.php -w /opt/directory-list-2.3-medium.txt --wildcard -x php` and the connection is refused as expected.**
@@ -82,20 +85,25 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 **Knowing all this information hints that there might be some sort of login page on this machine.**
 **Now let's open up OWASP Zap and paste the URL into the Spider tool which "is used to automatically discover new resources/URLs on your website".**
+
 ![zap](https://user-images.githubusercontent.com/55566953/110192781-40f69880-7dfe-11eb-9c01-f7ee36aab465.PNG)
 
 **The scan results greet us with a whole list of URLS, one in particular looks very interesting; `"CuteNews".`**
+
 ![zapr](https://user-images.githubusercontent.com/55566953/110192852-aba7d400-7dfe-11eb-86a9-29266d3fa9ae.PNG)
 
 ## CuteNews Web-Page Discovery
 
 **Visiting `http://$IP/CuteNews/` shows us a login/registration page!**
+
 ![cutenews](https://user-images.githubusercontent.com/55566953/110193160-45bc4c00-7e00-11eb-963d-a5261cee3b47.PNG)
 
 **Registering for an account gives us access to the "Cute News Management System Dashboard"**
+
 ![mana](https://user-images.githubusercontent.com/55566953/110193223-d98e1800-7e00-11eb-8880-e42e4ff78172.PNG)
 
 **and "Personal Options"**
+
 ![php](https://user-images.githubusercontent.com/55566953/110193750-db0d0f80-7e03-11eb-9622-d021e12207d8.PNG)
 
 
