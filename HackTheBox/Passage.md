@@ -185,7 +185,20 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 **The user, email, and passowrd hash was stored in this data! Let's grab the hash and use [`hash-identifier`](https://tools.kali.org/password-attacks/hash-identifier)( a tool that identifies different types of hashes).**
 
-![black](https://user-images.githubusercontent.com/55566953/110199514-b8402280-7e26-11eb-8226-c17acad73661.PNG)
+![sha](https://user-images.githubusercontent.com/55566953/110199545-ddcd2c00-7e26-11eb-828e-60a5fe837561.PNG)
+
+**The hash was identified as a `SHA-256` hash which can be cracked using a neat tool called [hashcat](https://hashcat.net/hashcat/)(password cracking tool) in order to retrieve the password in clear text**
+
+**Before we crack the password, hashcat requires some input in order to function properly** We need the;
+1. Attack mode(-a) - For attack mode we use 0 or straight which (is trying all words in a list).
+2. Hash mode(-m) - For Hash mode we see that [Hashcat Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes) shows 1400 which represents SHA-256.
+3. hash - The hash you want cracked
+4. passowrd list- Any password 
+
+**The command used was `sudo hashcat -a 0 -m 1400 hash /opt/rockyou.txt` 
+
+
+
 
 
 
