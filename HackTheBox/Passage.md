@@ -149,7 +149,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 ![id](https://user-images.githubusercontent.com/55566953/110198104-06045d00-7e1e-11eb-9853-46fb97ce7d23.PNG)
 
 
-**It's always good measure to stabalize a shell! [RopNop Blog](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/) states that "shells have other shortcomings as well:**
+**It's always good measure to stabalize a shell! __[RopNop Blog](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)__ states that "shells have other shortcomings as well:**
 
  -some commands, like su and ssh require a proper terminal to run
  -STDERR usually isn’t displayed
