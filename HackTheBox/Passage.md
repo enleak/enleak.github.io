@@ -171,6 +171,8 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 **Now that this shell is stable lets do some enumeration and look for interesting files that could eventualy help us get root. The first directory I look at is the `/var` directory. Why? This directory contains variable data files, email-in-boxes, web application related files, cron files, and more. In this case, I looked for a CuteNews directory containing all the important web application files (searching for credentials to piviot either horizontally or vertically).**
 
+## Base 64 Encoded Data
+
 **After looking around for a while, I found myself a `/users` directory located in `/var/www/html/CuteNews/cdata/users`. In this directory we were able to find some base 64 encoded data!?**
 
 ![HASH](https://user-images.githubusercontent.com/55566953/110198871-8083ab80-7e23-11eb-9637-4928b904dbc0.PNG)
@@ -182,6 +184,9 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 **How do we know which user(s) we need the credentials for? While browsing earlier we also ran into a directory with two users in `/var/lib/AccountsService/users`;**
 
 ![users](https://user-images.githubusercontent.com/55566953/110199205-47e4d180-7e25-11eb-835e-c4d7e1912735.PNG)
+
+
+## HashCat
 
 **The user, email, and passowrd hash was stored in this data! Let's grab the hash and use [`hash-identifier`](https://tools.kali.org/password-attacks/hash-identifier)( a tool that identifies different types of hashes).**
 
@@ -197,7 +202,28 @@ Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
 
 **The command used was `sudo hashcat -a 0 -m 1400 hash /opt/rockyou.txt`, we were able to retrieve the clear text password!!**
 
-![atlanta](https://user-images.githubusercontent.com/55566953/110199918-dd359500-7e28-11eb-9211-c066aca8e784.PNG)
+![cracked](https://user-images.githubusercontent.com/55566953/110199991-62b94500-7e29-11eb-8a97-fabad1d2c413.PNG)
+
+## Paul@Passage
+
+**Using these credentials we're able to `su`
+
+![paul](https://user-images.githubusercontent.com/55566953/110200096-233f2880-7e2a-11eb-8c49-7eb5df46ac4c.PNG)
+
+**Now we `cd` back into pauls home directory and use `ls -la` which list all files, even hidden files (hidden files which look like “.file”). We are able to see a `.ssh` directory which could contain ssh private keys used to login to other users on a machine (via ssh/port 22 whcih was open if you look at the nmap scan at the beginning of this
+writeup). Now let's `cd` into `.shh` and `ls` to list all the files.**
+
+![idr](https://user-images.githubusercontent.com/55566953/110200275-1838c800-7e2b-11eb-97a7-b3b85b1a425a.PNG)
+
+
+
+
+
+
+
+
+
+
 
 
 
