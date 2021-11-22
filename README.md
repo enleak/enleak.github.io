@@ -11,7 +11,7 @@ Collection of all the writeups that I have written for each and every room/machi
 
 
 
-### MOC Pentest Report
+### MOCK Pentest Report
 
 |Machine | Difficulty | OS | Release Date | |
 | -------- | ---- | ---- | -------------- | -- |
