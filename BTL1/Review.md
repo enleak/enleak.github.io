@@ -47,7 +47,9 @@ And some of the tools that are covered in the course are:
 +	Sigma, 
 +	Snort,
 +	Splunk,
-+	Suricata, TheHive5, VirusTotal, Volatility, WannaBrowser, Windows File Analyzer, Wireshark and much more
++	Suricata, TheHive5, VirusTotal, Volatility, WannaBrowser, Windows File Analyzer, Wireshark and much more.
+
+  Additionally, the way that the exam is structured is that Students are able to start their practical 24-hour incident response exam immediately from the BTL1 course within 12 months of purchase. Most importantly, Students will have access to a cloud lab via an in-browser session for up to 24 hours and must complete and answer twenty task-based questions. Regarding passing, Once the student has answered all the questions they can, they are able to submit the exam to receive immediate grading and feedback, and:
 
 
 
