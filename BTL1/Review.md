@@ -132,7 +132,7 @@ Closing out, I want to express my gratitude to Joshua Speshock for creating this
 
 Additionally, here are the websites and resources that were used to create this blog:
 
-- [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
++ [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
 - [Map Cybersecurity Domains Version 2.0](https://www.linkedin.com/pulse/map-cybersecurity-domains-version-20-henry-jiang-ciso-cissp/)
 - [What is a Security Operations Center?](https://www.comptia.org/content/articles/what-is-a-security-operations-center)
 - [SOC Analyst Levels Description, Requirements, and Career Path](https://letsdefend.io/blog/soc-analyst-levels-description-requirements-career/)
