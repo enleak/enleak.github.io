@@ -104,6 +104,48 @@ Moving on, the resources recommended to use to prepare for the certification alo
 +	[Wireshark 101](https://tryhackme.com/room/wireshark)
 +	[YARA](https://tryhackme.com/room/yara)
 
+Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of your comfort level with the material. Now, I will provide some tips and advice that do not violate the NDA pertaining to this exam.
+
+First, I would definitely recommend redoing the labs provided in the course and on Tryhackme for practical experience. These types of exams require you to use your critical thinking skills, so the answers may not be straightforward. Get comfortable and confident with the material from a hands-on perspective and understand the concepts behind those tools as well.
+
+In cybersecurity and any field, it is crucially important to build up your social network because it can open doors to opportunities that you thought were impossible to achieve. I recommend joining Slack channels or Discord servers that align with your field. Specifically, in cybersecurity, the following ones have really helped me prepare for this exam. Please note that this is not an exhaustive list, so I encourage you to explore and join other Discord servers or Slack channels that are best suited for you:
+
+- Cyberwox Academy: [Join](https://discord.gg/dqcse7QJYb)
+- Security Blue Team: [Join](https://discord.com/invite/gEUeKm8)
+- TechTual Chatter: [Join](https://techtualconsulting.slack.com/join/shared_invite/zt-nz1zzhox-S0uI5TdUCvb4eTtXpZLdBA#/shared-invite/email)
+- Tryhackme: [Join](https://discord.com/invite/Q3gWjVmHsx)
+
+Source: [Karlie Kloss - If you believe in yourself and feel confident in yourself, you can do anything](https://quotefancy.com/quote/1276902/Karlie-Kloss-If-you-believe-in-yourself-and-feel-confident-in-yourself-you-can-do)
+
+Finally, I highly recommend this certification as it is a great choice for breaking into the defensive side of cybersecurity. It not only helps improve your critical thinking skills but also teaches you to be creative and think outside the box to pass the certification. Give it a try, and you will definitely benefit from it.
+
+Furthermore, it's normal to feel that the exam is daunting. However, remember that the certification can open doors for you in the cybersecurity field. Stay motivated and strive to do your best. To keep you inspired, I want to share this quote with you: "If you believe in yourself and feel confident in yourself, you can do anything" - Karlie Kloss.
+
+Closing out, I want to express my gratitude to Joshua Speshock for creating this blog. I highly recommend following him on LinkedIn or Discord. You can also connect with me:
+
+- LinkedIn: [Joshua Speshock](https://www.linkedin.com/in/joshua-speshock/)
+- Discord: josh_cyberlibrary_man
+- Ricardo Castro LinkedIn:
+- Discord: enleak
+
+Additionally, here are the websites and resources that were used to create this blog:
+
+- [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
+- [Map Cybersecurity Domains Version 2.0](https://www.linkedin.com/pulse/map-cybersecurity-domains-version-20-henry-jiang-ciso-cissp/)
+- [What is a Security Operations Center?](https://www.comptia.org/content/articles/what-is-a-security-operations-center)
+- [SOC Analyst Levels Description, Requirements, and Career Path](https://letsdefend.io/blog/soc-analyst-levels-description-requirements-career/)
+- [SOC 1 - SOC Nedir?](https://alpbatursahin.medium.com/soc-1-soc-nedir-32d28d7f0383)
+- [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
+- [TryHackMe Hacktivities - Learning Paths](https://tryhackme.com/hacktivities#learning-paths)
+- [TryHackMe Rooms to Help with BTL1](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
+
+Links to community Discord servers and Slack channels that I definitely recommend joining:
+
+- [Cyberwox Academy](https://discord.gg/dqcse7QJYb)
+- [Security Blue Team](https://discord.com/invite/gEUeKm8)
+- [TechTual Chatter](https://techtualconsulting.slack.com/join/shared_invite/zt-nz1zzhox-S0uI5TdUCvb4eTtXpZLdBA#/shared-invite/email)
+- [Tryhackme](https://discord.com/invite/Q3gWjVmHsx)
+
 
 
 
