@@ -11,4 +11,4 @@
 Source: https://securityblue.team/why-btl1/
 </div>
 
-First of all, I want to thank Security Blue Team for the  amazing exam and learning experience. I'd also like to thank those who supported me on this journey. With that being said, I will now transition into discussing what resources I used for the exam, what was my studying experience like, and overall, what value did passing this certification bring to me, hope you enjoy!
+First of all, I want to thank Security Blue Team for the  amazing exam and learning experience, I'd also like to thank those who supported me on this journey. With that being said, I will now transition into discussing what resources I used for the exam, what was my studying experience like, and overall, what value did passing this certification bring to me, hope you enjoy!
