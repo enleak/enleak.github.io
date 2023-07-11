@@ -116,7 +116,7 @@ In cybersecurity and any field, it is crucially important to build up your socia
 - Tryhackme: [Join](https://discord.com/invite/Q3gWjVmHsx)
 <div align="center">
   
-### Final Thoughts
+## Final Thoughts
 <div>
   
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/aac2d16e-9cc0-460b-a11e-67636b994ec4)
@@ -132,7 +132,7 @@ Closing out, I want to express my gratitude to Joshua Speshock for creating this
 - Ricardo Castro LinkedIn:
 - Discord: enleak
 
-Additionally, here are the websites and resources that were used to create this blog:
+### Additionally, here are the websites and resources that were used to create this blog:
 
 + [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
 + [Map Cybersecurity Domains Version 2.0](https://www.linkedin.com/pulse/map-cybersecurity-domains-version-20-henry-jiang-ciso-cissp/)
