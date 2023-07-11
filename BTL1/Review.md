@@ -134,19 +134,19 @@ Closing out, I want to express my gratitude to Joshua Speshock for creating this
 Additionally, here are the websites and resources that were used to create this blog:
 
 + [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
-- [Map Cybersecurity Domains Version 2.0](https://www.linkedin.com/pulse/map-cybersecurity-domains-version-20-henry-jiang-ciso-cissp/)
-- [What is a Security Operations Center?](https://www.comptia.org/content/articles/what-is-a-security-operations-center)
-- [SOC Analyst Levels Description, Requirements, and Career Path](https://letsdefend.io/blog/soc-analyst-levels-description-requirements-career/)
-- [SOC 1 - SOC Nedir?](https://alpbatursahin.medium.com/soc-1-soc-nedir-32d28d7f0383)
-- [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
-- [TryHackMe Hacktivities - Learning Paths](https://tryhackme.com/hacktivities#learning-paths)
-- [TryHackMe Rooms to Help with BTL1](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
++ [Map Cybersecurity Domains Version 2.0](https://www.linkedin.com/pulse/map-cybersecurity-domains-version-20-henry-jiang-ciso-cissp/)
++ [What is a Security Operations Center?](https://www.comptia.org/content/articles/what-is-a-security-operations-center)
++ [SOC Analyst Levels Description, Requirements, and Career Path](https://letsdefend.io/blog/soc-analyst-levels-description-requirements-career/)
++ [SOC 1 - SOC Nedir?](https://alpbatursahin.medium.com/soc-1-soc-nedir-32d28d7f0383)
++ [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
++ [TryHackMe Hacktivities - Learning Paths](https://tryhackme.com/hacktivities#learning-paths)
++ [TryHackMe Rooms to Help with BTL1](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
 
 ### Links to community Discord servers that I definitely recommend joining:
 
-- [Cyberwox Academy](https://discord.gg/dqcse7QJYb)
-- [Security Blue Team](https://discord.com/invite/gEUeKm8)
-- [Tryhackme](https://discord.com/invite/Q3gWjVmHsx)
++ [Cyberwox Academy](https://discord.gg/dqcse7QJYb)
++ [Security Blue Team](https://discord.com/invite/gEUeKm8)
++ [Tryhackme](https://discord.com/invite/Q3gWjVmHsx)
 
 
 
