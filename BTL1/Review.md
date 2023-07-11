@@ -68,41 +68,41 @@ Moving on, the resources recommended to use to prepare for the certification alo
 
 ### Phishing
  + [Phishing Module](https://tryhackme.com/module/phishing): This module contains five rooms (2 free, three paid/VIP) that walk you through analysis of phishing emails, tools you can use to analyze phishing emails, and phishing prevention techniques.
-+	Phishing Analysis Fundamentals
-+	Phishing Emails in Action
-+	Phishing Analysis Tools
-+	Phishing Prevention
-+	The Greenholt Phish
++	[Phishing Analysis Fundamentals]
++	[Phishing Emails in Action]
++	[Phishing Analysis Tools]
++	[Phishing Prevention]
++	[The Greenholt Phish]
 
 ### Threat Intelligence
-+	Intro to Cyber Threat Intel
-+	Cyber Kill Chain
-+	Pyramid of Pain
-+	Threat Intelligence Tools
-+	MISP
++	[Intro to Cyber Threat Intel]
++	[Cyber Kill Chain]
++	[Pyramid of Pain]
++	[Threat Intelligence Tools]
++	[MISP]
 
 ### Digital Forensics
-+	Intro to Digital Forensics
-+	DFIR: An Introduction
-+	Windows Forensics 1
-+	Windows Forensics 2
-+	Linux Forensics
-+	KAPE
-+	Autopsy
++	[Intro to Digital Forensics]
++	[DFIR: An Introduction]
++	[Windows Forensics 1]
++	[Windows Forensics 2]
++	[Linux Forensics]
++	[KAPE]
++	[Autopsy]
 
 ### SIEM
-+	Introduction to SIEM
-+	Sigma
-+	Splunk: Basics
-+	Investigating with Splunk
-+	Splunk 2
-+	Splunk 3
++	[Introduction to SIEM]
++	[Sigma]
++	[Splunk: Basics]
++	[Investigating with Splunk]
++	[Splunk 2]
++	[Splunk 3]
 
 ### Incident Response
-+	Incident Handling with Splunk
-+	MITRE
-+	Wireshark 101
-+	YARA
++	[Incident Handling with Splunk]
++	[MITRE]
++	[Wireshark 101]
++	[YARA]
 
 
 
