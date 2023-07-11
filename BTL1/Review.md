@@ -7,5 +7,5 @@
 
 <div align="center">
   
-Source:(https://securityblue.team/why-btl1/)
+Source: https://securityblue.team/why-btl1/
 </div>
