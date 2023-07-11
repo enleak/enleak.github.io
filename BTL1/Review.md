@@ -21,13 +21,33 @@ First of all, I want to thank Security Blue Team for the  amazing exam and learn
 Regarding the structure of the certification, it covers six domains which are:
 </div>
 
-<div align="center">
-  
 +	Domain 1 – Security Fundamentals
 +	Domain 2 – Phishing Analysis
 +	Domain 3 – Threat Intelligence
 +	Domain 4 – Digital Forensics
 +	Domain 5 – SIEM
 +	Domain 6 – Incident Response
-</div>
+
+And some of the tools that are covered in the course are:
+
++	Autopsy, 
++	Browser History Capturer, 
++	Browser History Viewer, 
++	DeepBlueCLI, 
++	DomainTools, 
++	Event Viewer,
++	FTK Imager,
++	JumpList Explorer, 
++	KAPE, 
++	MISP, 
++	OpenCTI, 
++	PECmd, 
++	PhishTool, 
++	ProcDump, 
++	Sigma, 
++	Snort,
++	Splunk,
++	Suricata, TheHive5, VirusTotal, Volatility, WannaBrowser, Windows File Analyzer, Wireshark and much more
+
+
 
