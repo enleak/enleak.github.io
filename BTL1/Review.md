@@ -141,11 +141,10 @@ Additionally, here are the websites and resources that were used to create this 
 - [TryHackMe Hacktivities - Learning Paths](https://tryhackme.com/hacktivities#learning-paths)
 - [TryHackMe Rooms to Help with BTL1](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
 
-Links to community Discord servers and Slack channels that I definitely recommend joining:
+### Links to community Discord servers that I definitely recommend joining:
 
 - [Cyberwox Academy](https://discord.gg/dqcse7QJYb)
 - [Security Blue Team](https://discord.com/invite/gEUeKm8)
-- [TechTual Chatter](https://techtualconsulting.slack.com/join/shared_invite/zt-nz1zzhox-S0uI5TdUCvb4eTtXpZLdBA#/shared-invite/email)
 - [Tryhackme](https://discord.com/invite/Q3gWjVmHsx)
 
 
