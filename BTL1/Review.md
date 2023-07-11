@@ -15,7 +15,7 @@ First of all, I want to thank Security Blue Team for the  amazing exam and learn
 
 </div>
 
-![image](![image](https://github.com/enleak/enleak.github.io/assets/55566953/4f0ca81f-1959-42d4-bfe4-b7c01d40c733)
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/4f0ca81f-1959-42d4-bfe4-b7c01d40c733)
 )
 
 <div align="center">
