@@ -112,9 +112,8 @@ In cybersecurity and any field, it is crucially important to build up your socia
 
 - Cyberwox Academy: [Join](https://discord.gg/dqcse7QJYb)
 - Security Blue Team: [Join](https://discord.com/invite/gEUeKm8)
-- TechTual Chatter: [Join](https://techtualconsulting.slack.com/join/shared_invite/zt-nz1zzhox-S0uI5TdUCvb4eTtXpZLdBA#/shared-invite/email)
 - Tryhackme: [Join](https://discord.com/invite/Q3gWjVmHsx)
-- 
+  
 <div align="center">
   
 ## Final Thoughts
