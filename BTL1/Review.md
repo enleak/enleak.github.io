@@ -116,7 +116,8 @@ In cybersecurity and any field, it is crucially important to build up your socia
 - Tryhackme: [Join](https://discord.com/invite/Q3gWjVmHsx)
 
 <div align="center">
-  
+
+### Final Thoughts:
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/aac2d16e-9cc0-460b-a11e-67636b994ec4)
 <div>
 
