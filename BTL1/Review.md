@@ -115,8 +115,10 @@ In cybersecurity and any field, it is crucially important to build up your socia
 - TechTual Chatter: [Join](https://techtualconsulting.slack.com/join/shared_invite/zt-nz1zzhox-S0uI5TdUCvb4eTtXpZLdBA#/shared-invite/email)
 - Tryhackme: [Join](https://discord.com/invite/Q3gWjVmHsx)
 
-Source: [Karlie Kloss - If you believe in yourself and feel confident in yourself, you can do anything![image](https://github.com/enleak/enleak.github.io/assets/55566953/aac2d16e-9cc0-460b-a11e-67636b994ec4)
-
+<div align="center">
+  
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/aac2d16e-9cc0-460b-a11e-67636b994ec4)
+<div>
 
 
 Finally, I highly recommend this certification as it is a great choice for breaking into the defensive side of cybersecurity. It not only helps improve your critical thinking skills but also teaches you to be creative and think outside the box to pass the certification. Give it a try, and you will definitely benefit from it.
