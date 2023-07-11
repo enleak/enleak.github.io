@@ -60,7 +60,8 @@ And some of the tools that are covered in the course are:
 </div>
 
 <div align="center">
-  
+
+### Resources Used:
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
 </div>
 Moving on,  the resources that I used to prepare for the certification along with the browser labs and content that were provided by Security Blue Team was Tryhackme and more specifically their SOC Level 1 and their Cyber Defense paths and I will explain more about those next. First, Tryhackme is a cybersecurity training platform that uses gamification which means that it feels like a game such as completing tasks and you get a nice message saying congratulations, but also it makes you want to keep going because it makes the learning experience enjoyable and overall engaging, so that is one of the ways in which Tryhackme is different than other learning platforms. Furthermore, Tryhackme does an excellent job with maintaining existing content, creating and offering new content, and also their have Capture the Flag competitions and other events like King of the Hill that they offer as well, so there is a plethora of different topics to choose from to learn more about cybersecurity. Now regarding the learning paths, there is five areas that stand out to me that a friend created a GitHub for so definitely a big shoutout to my friend for creating that and they are listed below:
