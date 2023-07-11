@@ -20,6 +20,7 @@ First of all, I want to thank Security Blue Team for the  amazing exam and learn
 
 Regarding the structure of the certification, it covers six domains which are:
 </div>
+
 +	Domain 1 – Security Fundamentals
 +	Domain 2 – Phishing Analysis
 +	Domain 3 – Threat Intelligence
