@@ -66,43 +66,43 @@ And some of the tools that are covered in the course are:
 </div>
 Moving on, the resources recommended to use to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there is five areas that stand out to me that a friend created a GitHub for so definitely a big shoutout to my friend for creating that and they are listed below:
 
-# Phishing
+### Phishing
  + [Phishing Module](https://tryhackme.com/module/phishing): This module contains five rooms (2 free, three paid/VIP) that walk you through analysis of phishing emails, tools you can use to analyze phishing emails, and phishing prevention techniques.
-•	Phishing Analysis Fundamentals
-•	Phishing Emails in Action
-•	Phishing Analysis Tools
-•	Phishing Prevention
-•	The Greenholt Phish
++	Phishing Analysis Fundamentals
++	Phishing Emails in Action
++	Phishing Analysis Tools
++	Phishing Prevention
++	The Greenholt Phish
 
-# Threat Intelligence
-•	Intro to Cyber Threat Intel
-•	Cyber Kill Chain
-•	Pyramid of Pain
-•	Threat Intelligence Tools
-•	MISP
+### Threat Intelligence
++	Intro to Cyber Threat Intel
++	Cyber Kill Chain
++	Pyramid of Pain
++	Threat Intelligence Tools
++	MISP
 
-# Digital Forensics
-•	Intro to Digital Forensics
-•	DFIR: An Introduction
-•	Windows Forensics 1
-•	Windows Forensics 2
-•	Linux Forensics
-•	KAPE
-•	Autopsy
+### Digital Forensics
++	Intro to Digital Forensics
++	DFIR: An Introduction
++	Windows Forensics 1
++	Windows Forensics 2
++	Linux Forensics
++	KAPE
++	Autopsy
 
-# SIEM
-•	Introduction to SIEM
-•	Sigma
-•	Splunk: Basics
-•	Investigating with Splunk
-•	Splunk 2
-•	Splunk 3
+### SIEM
++	Introduction to SIEM
++	Sigma
++	Splunk: Basics
++	Investigating with Splunk
++	Splunk 2
++	Splunk 3
 
-# Incident Response
-•	Incident Handling with Splunk
-•	MITRE
-•	Wireshark 101
-•	YARA
+### Incident Response
++	Incident Handling with Splunk
++	MITRE
++	Wireshark 101
++	YARA
 
 
 
