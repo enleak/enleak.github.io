@@ -3,7 +3,7 @@
 
 
  
-Collection of all the writeups that I have written for each and every room/machine that I have solved.
+Documenting my cybersecurity journey!
 
 ### Author
 
