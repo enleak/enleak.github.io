@@ -47,14 +47,13 @@ And some of the tools that are covered in the course are:
 +	Splunk,
 +	Suricata, TheHive5, VirusTotal, Volatility, WannaBrowser, Windows File Analyzer, Wireshark and much more.
 
-  Additionally, the exam is structured so that the students are able to start their practical 24-hour incident response exam immediately from the BTL1 course within 12 months of purchase. Most importantly, Students will have access to a cloud lab via an in-browser session for up to 24 hours and must complete and answer twenty task-based questions. In regards to passing, once the student has answered all the questions, they are able to submit the exam to receive immediate grading, feedback, and:
+Additionally, the exam is structured so that the students are able to start their practical 24-hour incident response exam immediately from the BTL1 course within 12 months of purchase. Most importantly, Students will have access to a cloud lab via an in-browser session for up to 24 hours and must complete and answer twenty task-based questions. In regards to passing, once the student has answered all the questions, they are able to submit the exam to receive immediate grading, feedback, and:
   
 
 <div align="center">
 
 +	"Seventy percent is required to pass and earn the silver challenge coin."
 +	"While 90% (on the first attempt) is required for the gold challenge coin and below are images of the coin."
-
   
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/693736e7-2ab8-4f2e-8f9f-2d26e352cb29)
 </div>
@@ -64,6 +63,7 @@ And some of the tools that are covered in the course are:
 ### Resources
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
 </div>
+
 Moving on, the resources recommended to use to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there is five areas that stand out to me that a friend created a GitHub for so definitely a big shoutout to my friend for creating that and they are listed below:
 
 ### Phishing
@@ -115,12 +115,10 @@ In cybersecurity and any field, it is crucially important to build up your socia
 - TechTual Chatter: [Join](https://techtualconsulting.slack.com/join/shared_invite/zt-nz1zzhox-S0uI5TdUCvb4eTtXpZLdBA#/shared-invite/email)
 - Tryhackme: [Join](https://discord.com/invite/Q3gWjVmHsx)
 
-<div align="center">
-
 ### Final Thoughts
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/aac2d16e-9cc0-460b-a11e-67636b994ec4)
 
-<div>
+
 
 To keep you inspired, I want to share this quote with you: "If you believe in yourself and feel confident in yourself, you can do anything" - Karlie Kloss. It's normal to feel that the exam is daunting and/or to feel burnout. However, remember that the certification can open doors for you in the cybersecurity field, stay motivated and strive to do your best. 
 
