@@ -1,5 +1,4 @@
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/a1920710-f737-4f16-8aec-de51f0d20229)<div align="center">
-  
+
 ### ¡My Security Blue Team Level One Exam Experience!
 
 </div>
