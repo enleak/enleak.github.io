@@ -119,6 +119,7 @@ In cybersecurity and any field, it is crucially important to build up your socia
 
 ### Final Thoughts
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/aac2d16e-9cc0-460b-a11e-67636b994ec4)
+
 <div>
 
 To keep you inspired, I want to share this quote with you: "If you believe in yourself and feel confident in yourself, you can do anything" - Karlie Kloss. It's normal to feel that the exam is daunting and/or to feel burnout. However, remember that the certification can open doors for you in the cybersecurity field, stay motivated and strive to do your best. 
