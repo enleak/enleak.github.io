@@ -15,7 +15,7 @@ I want to begin by stating that this course and exam are of great significance t
 
 <div align="center">
 
-## Overview
+## BTL1 Overview
 </div>
 
 Regarding the structure of the certification, it covers six domains which are:
@@ -62,6 +62,28 @@ Additionally, the exam is structured so that the students are able to start thei
 For in depth information visit their website at https://securityblue.team/why-btl1/.
 
 <div align="center">
+
+
+<div align="center">
+
+## Exam Experience
+</div>
+
+<div align="center">
+  
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/2c4e4b45-4ac7-4deb-a8a1-dc0895c55783)
+</div>
+
+I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "Backwards" by The Rare Occasions playing, and a dream! Structure your time however you see fit, you have 24 hours in order to complete the exam. Building a timeline was the most useful to me, noting down the time, date and description of all events aided in maintaining the investigation organized and structured. With prior experience using certain tools and the notes available I found myself answering a couple questions the first hour or 2. I would recommend disecting the questions and truly understanding what youre being asked to look for. The amount of fun I was having whilst progressing through the investigation is immeasurable, there will come a time where you find yourself answering a question and coming back later to review and edit it. For the most part, everything needed to pass the exam can be found directly in the course so having an open tab with the course open will be of great value. At the 5 hour mark I was done for the most part, in retorspect, I wish I utilized an extra hour in order to guarantee that gold coin. About 6 hours in, I submitted my exam and got my passing grade. 
+
+
+
+
+
+
+
+
+
 
 ## Resources
 </div>
@@ -115,19 +137,6 @@ Moving on, the resources recommended to prepare for the certification along with
 +	[MITRE](https://tryhackme.com/room/mitre)
 +	[Wireshark 101](https://tryhackme.com/room/wireshark)
 +	[YARA](https://tryhackme.com/room/yara)
-
-<div align="center">
-
-## Exam Experience
-</div>
-
-<div align="center">
-  
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/2c4e4b45-4ac7-4deb-a8a1-dc0895c55783)
-</div>
-
-I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "Backwards" by The Rare Occasions playing, and a dream! Structure your time however you see fit, you have 24 hours in order to complete the exam. Building a timeline was the most useful to me, noting down the time, date and description of all events aided in maintaining the investigation organized and structured. With prior experience using certain tools and the notes available I found myself answering a couple questions the first hour or 2. I would recommend disecting the questions and truly understanding what youre being asked to look for. The amount of fun I was having whilst progressing through the investigation is immeasurable, there will come a time where you find yourself answering a question and coming back later to review and edit it. At the 5 hour mark I was done for the most part, in retorspect, I wish I utilized an extra hour in order to guarantee that gold coin. About 6 hours in, I submitted my exam and got my passing grade instantly. 
-
 
 
 
