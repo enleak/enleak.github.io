@@ -72,7 +72,7 @@ For in depth information visit their website at https://securityblue.team/why-bt
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
 </div>
 
-Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there are five areas of interest that a friend created a repository for, so shoutout to my friend for creating that, they are listed below in addition to his Github repository:
+Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. The exam is openbook so i highly reccomend googling if you're confused about a certain tools functionality, forming queries, etc. Now regarding the learning paths, there are five areas of interest that a friend created a repository for, so shoutout to my friend for creating that, they are listed below in addition to his Github repository:
 
 
 ### Repository
@@ -121,7 +121,21 @@ Moving on, the resources recommended to prepare for the certification along with
 ## Exam Experience
 </div>
 
-Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of your comfort level with the material. Now, I will provide some tips and advice that do not violate the NDA pertaining to this exam.
+<div align="center">
+  
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/2c4e4b45-4ac7-4deb-a8a1-dc0895c55783)
+</div>
+
+Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of comfort level with the material. I began the exam in the afternoon wi
+
+
+
+
+
+
+
+
+
 
 First, I would definitely recommend redoing the labs provided in the course and on Tryhackme for practical experience. These types of exams require you to use your critical thinking skills, so the answers may not be straightforward. Get comfortable and confident with the material from a hands-on perspective and understand the concepts behind those tools as well.
 
