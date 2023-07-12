@@ -68,8 +68,7 @@ For in depth information visit their website at [https://securityblue.team/why-b
 
 
 I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "Backwards" by The Rare Occasions playing, and a dream! Structure your time however you see fit, you have 24 hours in order to complete the exam. Building a timeline was the most useful to me, noting down the time, date and description of all events aided in maintaining the investigation organized and structured. With prior experience using certain tools and the notes available I found myself answering a couple questions the first hour or 2. I would recommend disecting the questions and truly understanding what youre being asked to look for. The amount of fun I had whilst progressing through the investigation is immeasurable, there will come a time where you find yourself answering a question early and coming back later to review and edit it. For the most part, everything needed to pass the exam can be found directly in the course so having an open tab with the course open will be of great value. At the 5 hour mark I was done for the most part, in retorspect, I wish I utilized an extra hour in order to guarantee that gold coin. About 6 hours in, I submitted my exam and got my passing grade. 
-
-
+ 
 
 ## Resources
 
