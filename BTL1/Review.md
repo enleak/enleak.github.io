@@ -13,10 +13,9 @@ Source: https://securityblue.team/why-btl1/
   
 I want to begin by stating that this course and exam are of great significance to me. After failing the OSCP and PNPT, feelings of discouragement and thoughts of quitting quickly sprouted. Feeding into the negativity is simple especially after the amount of time, money and energy spent learning. However, a common theme that never fails to be mentioned is the persistence needed in order to learn, become an asset and succeed in this field. Thank you [🇬🇧 Josh Beaman](https://www.linkedin.com/in/joshuabeaman/) for the great course and great thanks to my mentors and friends that help encourage me. With that being said, I will now transition into discussing what resources I used for the exam, what was my studying experience like, and overall, what value did passing this certification bring to me, hope you enjoy!
 
-<div align="center">
 
 ## BTL1 Overview
-</div>
+
 
 Regarding the structure of the certification, it covers six domains which are:
 
@@ -51,39 +50,37 @@ And some of the tools that are covered in the course are:
 Additionally, the exam is structured so that the students are able to start their practical 24-hour incident response exam immediately from the BTL1 course within 12 months of purchase. Most importantly, students will have access to a cloud based lab via an in-browser session for up to 24 hours and must complete and answer twenty task-based questions. In regards to passing, once the student has answered all the questions, they are able to submit the exam to receive immediate grading, feedback, and:
   
 
-<div align="center">
+
 
 +	"Seventy percent is required to pass and earn the silver challenge coin."
 +	"While 90% (on the first attempt) is required for the gold challenge coin and below are images of the coin."
   
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/693736e7-2ab8-4f2e-8f9f-2d26e352cb29)
-</div>
 
 For in depth information visit their website at https://securityblue.team/why-btl1/.
 
 
-<div align="center">
 
 ## Exam Experience
-</div>
 
-<div align="center">
+
+
   
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2c4e4b45-4ac7-4deb-a8a1-dc0895c55783)
-</div>
+
 
 I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "Backwards" by The Rare Occasions playing, and a dream! Structure your time however you see fit, you have 24 hours in order to complete the exam. Building a timeline was the most useful to me, noting down the time, date and description of all events aided in maintaining the investigation organized and structured. With prior experience using certain tools and the notes available I found myself answering a couple questions the first hour or 2. I would recommend disecting the questions and truly understanding what youre being asked to look for. The amount of fun I was having whilst progressing through the investigation is immeasurable, there will come a time where you find yourself answering a question and coming back later to review and edit it. For the most part, everything needed to pass the exam can be found directly in the course so having an open tab with the course open will be of great value. At the 5 hour mark I was done for the most part, in retorspect, I wish I utilized an extra hour in order to guarantee that gold coin. About 6 hours in, I submitted my exam and got my passing grade. 
 
-<div align="center">
+
 
 ## Resources
-</div>
 
-<div align="center">
+
+
 
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
-</div>
+
 
 Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. The exam is openbook so i highly reccomend googling if you're confused about a certain tools functionality, forming queries, etc. Now regarding the learning paths, there are five areas of interest that a friend created a repository for, so shoutout to my friend for creating that, they are listed below in addition to his Github repository:
 
@@ -130,10 +127,10 @@ Moving on, the resources recommended to prepare for the certification along with
 +	[YARA](https://tryhackme.com/room/yara)
 
 
-<div align="center">
+
   
 ## Community Discord Servers
-</div>
+
 
 It is crucially important to build up your social network as it can open doors to opportunities. I recommend joining Discord servers that align with your interests. Specifically, the following ones have really aided in preparing for this exam. Please note that this is not an exhaustive list, so I encourage you to explore and join other Discord servers that are best suited for you:
 
@@ -144,10 +141,9 @@ It is crucially important to build up your social network as it can open doors t
   
 
 
-<div align="center">
   
 ## Socials
-</div>
+
 
 
 Closing out, I want to express my gratitude to Joshua Speshock for contributing to a great extent on this blog. I highly recommend following him on LinkedIn or Discord. You can also connect with me:
@@ -157,10 +153,10 @@ Closing out, I want to express my gratitude to Joshua Speshock for contributing 
 
 - LinkedIn: [Richard Castro](https://www.linkedin.com/in/enleak/)
 
-<div align="center">
+
   
 ## Resources used to create this blog:
-</div>
+
 
 + [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
 + [Map Cybersecurity Domains Version 2.0](https://www.linkedin.com/pulse/map-cybersecurity-domains-version-20-henry-jiang-ciso-cissp/)
