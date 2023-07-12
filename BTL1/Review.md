@@ -66,6 +66,12 @@ For in depth information visit their website at https://securityblue.team/why-bt
 ## Resources
 </div>
 
+<div align="center">
+
+
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
+</div>
+
 Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there are five areas of interest that a friend created a repository for, so shoutout to my friend for creating that, they are listed below in addition to his Github repository:
 
 
@@ -110,11 +116,7 @@ Moving on, the resources recommended to prepare for the certification along with
 +	[Wireshark 101](https://tryhackme.com/room/wireshark)
 +	[YARA](https://tryhackme.com/room/yara)
 
-  <div align="center">
 
-
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
-</div>
 
 Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of your comfort level with the material. Now, I will provide some tips and advice that do not violate the NDA pertaining to this exam.
 
