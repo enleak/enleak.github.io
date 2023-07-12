@@ -13,7 +13,10 @@ Source: https://securityblue.team/why-btl1/
   
 I want to begin by stating that this course and exam are of great significance to me. After failing the OSCP and PNPT, feelings of discouragement and thoughts of quitting quickly sprouted. Feeding into the negativity is simple especially after the amount of time, money and energy spent learning. However, a common theme that never fails to be mentioned is the persistence needed in order to learn, become an asset and succeed in this field. Thank you [🇬🇧 Josh Beaman](https://www.linkedin.com/in/joshuabeaman/) for the great course and great thanks to my mentors and friends that help encourage me. With that being said, I will now transition into discussing what resources I used for the exam, what was my studying experience like, and overall, what value did passing this certification bring to me, hope you enjoy!
 
+<div align="center">
 
+### Overview
+</div>
 
 Regarding the structure of the certification, it covers six domains which are:
 
@@ -58,7 +61,10 @@ Additionally, the exam is structured so that the students are able to start thei
 
 For in depth information visit their website at https://securityblue.team/why-btl1/.
 
+<div align="center">
 
+### Resources
+</div>
 
 Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there is five areas that stand out to me that a friend created a repository for, so definitely a big shoutout to my friend for creating that, they are listed below in addition to his Github repository:
 
@@ -122,13 +128,7 @@ In cybersecurity and any field, it is crucially important to build up your socia
 - Tryhackme: [Join](https://discord.com/invite/Q3gWjVmHsx)
   
   
-## Final Thoughts
 
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/aac2d16e-9cc0-460b-a11e-67636b994ec4)
-
-
-
-To keep you inspired, I want to share this quote with you: "If you believe in yourself and feel confident in yourself, you can do anything" - Karlie Kloss. It's normal to feel that the exam is daunting and/or to feel burnout. However, remember that the certification can open doors for you in the cybersecurity field, stay motivated and strive to do your best. 
 
 <div align="center">
   
