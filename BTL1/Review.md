@@ -145,7 +145,7 @@ Closing out, I want to express my gratitude to Joshua Speshock for contributing 
 
 <div align="center">
   
-### Additionally, here are the websites and resources that were used to create this blog:
+### Resources used to create this blog:
 </div>
 
 + [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
@@ -159,7 +159,7 @@ Closing out, I want to express my gratitude to Joshua Speshock for contributing 
 
 <div align="center">
   
-### Links to community Discord servers that I definitely recommend joining:
+### Community Discord Servers:
 </div>
 
 + [Cyberwox Academy](https://discord.gg/dqcse7QJYb)
