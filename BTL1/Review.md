@@ -78,7 +78,7 @@ I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "B
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
 
 
-Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. The exam is openbook so i highly reccomend googling if you're confused about a certain tools functionality, forming queries, etc. Now regarding the learning paths, there are five areas of interest that a friend created a repository for, so shoutout to my friend for creating that, they are listed below in addition to his Github repository:
+Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. The exam is openbook so I highly reccomend googling if you're confused about a certain tools functionality, forming queries, etc. Now regarding the learning paths, there are five areas of interest that a friend created a repository for, so shoutout to my friend for creating that, they are listed below in addition to his Github repository:
 
 
 ### Repository
