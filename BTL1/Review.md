@@ -130,7 +130,11 @@ In cybersecurity and any field, it is crucially important to build up your socia
 
 To keep you inspired, I want to share this quote with you: "If you believe in yourself and feel confident in yourself, you can do anything" - Karlie Kloss. It's normal to feel that the exam is daunting and/or to feel burnout. However, remember that the certification can open doors for you in the cybersecurity field, stay motivated and strive to do your best. 
 
-### Scocials
+<div align="center">
+  
+### Socials
+</div>
+
 
 Closing out, I want to express my gratitude to Joshua Speshock for contributing to a great extent on this blog. I highly recommend following him on LinkedIn or Discord. You can also connect with me:
 
