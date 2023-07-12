@@ -13,7 +13,7 @@ Source: https://securityblue.team/why-btl1/
 
 <div align="center">
   
-First of all, I want to thank Security Blue Team for the  amazing exam and learning experience, I'd also like to thank those who supported me on this journey. With that being said, I will now transition into discussing what resources I used for the exam, what was my studying experience like, and overall, what value did passing this certification bring to me, hope you enjoy!
+I want to begin by stating that this course and exam are of great significance to me. After failing the OSCP and PNPT, feelings of discouragement and thoughts of quitting quickly sprouted. Feeding into the negativity is simple especially after the amount of time, money and energy spent learning. However, a common theme that never fails to be mentioned is the persistence needed in order to learn, become an asset and succeed in this field. Thank you 🇬🇧 Josh Beaman for the great course and great thanks to my mentors and friends that help encourage me.. With that being said, I will now transition into discussing what resources I used for the exam, what was my studying experience like, and overall, what value did passing this certification bring to me, hope you enjoy!
 </div>
 
 
