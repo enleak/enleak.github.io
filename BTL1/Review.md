@@ -54,7 +54,7 @@ Additionally, the exam is structured so that the students are able to start thei
   
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/693736e7-2ab8-4f2e-8f9f-2d26e352cb29)
 
-For in depth information visit their website at https://securityblue.team/why-btl1/.
+For in depth information visit their website at [https://securityblue.team/why-btl1/](https://securityblue.team/why-btl1/).
 
 
 
