@@ -12,6 +12,7 @@ I want to begin by stating that this course and exam are of great significance t
 
 
 ## BTL1 Overview
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/e02f17d1-6ec5-42b3-be1d-fcc1b28d2e06)
 
 
 Regarding the structure of the certification, it covers six domains which are:
