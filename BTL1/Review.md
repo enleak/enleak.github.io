@@ -59,14 +59,15 @@ Additionally, the exam is structured so that the students are able to start thei
 For in depth information visit their website at https://securityblue.team/why-btl1/.
 
 
+
+Moving on, the resources recommended to use to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there is five areas that stand out to me that a friend created a GitHub for so definitely a big shoutout to my friend for creating that and they are listed below:
+
 <div align="center">
 
 
-### Resources
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
 </div>
 
-Moving on, the resources recommended to use to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there is five areas that stand out to me that a friend created a GitHub for so definitely a big shoutout to my friend for creating that and they are listed below:
 
 ### Phishing
  + [Phishing Module](https://tryhackme.com/module/phishing): This module contains five rooms (2 free, three paid/VIP) that walk you through analysis of phishing emails, tools you can use to analyze phishing emails, and phishing prevention techniques.
