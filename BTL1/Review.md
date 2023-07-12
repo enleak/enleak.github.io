@@ -5,10 +5,10 @@
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2ca07c97-64fb-4a8d-8c20-e4fb17b8e881)
 
 
-<div align="center">
+
   
 Source: https://securityblue.team/why-btl1/
-</div>
+
 
   
 I want to begin by stating that this course and exam are of great significance to me. After failing the OSCP and PNPT, feelings of discouragement and thoughts of quitting quickly sprouted. Feeding into the negativity is simple especially after the amount of time, money and energy spent learning. However, a common theme that never fails to be mentioned is the persistence needed in order to learn, become an asset and succeed in this field. Thank you [🇬🇧 Josh Beaman](https://www.linkedin.com/in/joshuabeaman/) for the great course and great thanks to my mentors and friends that help encourage me. With that being said, I will now transition into discussing what resources I used for the exam, what was my studying experience like, and overall, what value did passing this certification bring to me, hope you enjoy!
