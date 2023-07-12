@@ -116,7 +116,10 @@ Moving on, the resources recommended to prepare for the certification along with
 +	[Wireshark 101](https://tryhackme.com/room/wireshark)
 +	[YARA](https://tryhackme.com/room/yara)
 
+<div align="center">
 
+## Exam Experience
+</div>
 
 Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of your comfort level with the material. Now, I will provide some tips and advice that do not violate the NDA pertaining to this exam.
 
