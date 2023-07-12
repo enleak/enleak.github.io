@@ -132,7 +132,7 @@ I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "B
 
 
 
-In cybersecurity and any field, it is crucially important to build up your social network because it can open doors to opportunities that you thought were impossible to achieve. I recommend joining Slack channels or Discord servers that align with your field. Specifically, in cybersecurity, the following ones have really helped me prepare for this exam. Please note that this is not an exhaustive list, so I encourage you to explore and join other Discord servers that are best suited for you:
+It is crucially important to build up your social network as it can open doors to opportunities. I recommend joining Discord servers that align with your interests. Specifically, the following ones have really aided in preparing for this exam. Please note that this is not an exhaustive list, so I encourage you to explore and join other Discord servers that are best suited for you:
 
 - Cyberwox Academy: [Join](https://discord.gg/dqcse7QJYb)
 - Security Blue Team: [Join](https://discord.com/invite/gEUeKm8)
