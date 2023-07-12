@@ -130,7 +130,10 @@ Moving on, the resources recommended to prepare for the certification along with
 +	[YARA](https://tryhackme.com/room/yara)
 
 
-
+<div align="center">
+  
+## Community Discord Servers
+</div>
 
 It is crucially important to build up your social network as it can open doors to opportunities. I recommend joining Discord servers that align with your interests. Specifically, the following ones have really aided in preparing for this exam. Please note that this is not an exhaustive list, so I encourage you to explore and join other Discord servers that are best suited for you:
 
@@ -143,7 +146,7 @@ It is crucially important to build up your social network as it can open doors t
 
 <div align="center">
   
-### Socials
+## Socials
 </div>
 
 
@@ -156,7 +159,7 @@ Closing out, I want to express my gratitude to Joshua Speshock for contributing 
 
 <div align="center">
   
-### Resources used to create this blog:
+## Resources used to create this blog:
 </div>
 
 + [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
@@ -168,14 +171,9 @@ Closing out, I want to express my gratitude to Joshua Speshock for contributing 
 + [TryHackMe Hacktivities - Learning Paths](https://tryhackme.com/hacktivities#learning-paths)
 + [TryHackMe Rooms to Help with BTL1](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
 
-<div align="center">
-  
-### Community Discord Servers:
-</div>
 
-+ [Cyberwox Academy](https://discord.gg/dqcse7QJYb)
-+ [Security Blue Team](https://discord.com/invite/gEUeKm8)
-+ [Tryhackme](https://discord.com/invite/Q3gWjVmHsx)
+  
+
 
 
 
