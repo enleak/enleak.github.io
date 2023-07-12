@@ -13,7 +13,8 @@ Documenting my cybersecurity journey!
 ### BTL1 Blog
 
 |Release Date| |
-|------------| [BTL1 Blog](./BTL1/Review.md)
+|------------| ---|
+| 07/12/2023 | [BTL1 Blog](./BTL1/Review.md) |
 
 
 ### TryHackMe
