@@ -1,6 +1,6 @@
 <div align="center">
   
-### ¡My Security Blue Team Level One Exam Experience!
+# ¡My Security Blue Team Level One Exam Experience!
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2ca07c97-64fb-4a8d-8c20-e4fb17b8e881)
 </div>
@@ -15,7 +15,7 @@ I want to begin by stating that this course and exam are of great significance t
 
 <div align="center">
 
-### Overview
+## Overview
 </div>
 
 Regarding the structure of the certification, it covers six domains which are:
