@@ -69,7 +69,7 @@ Moving on, the resources recommended to prepare for the certification along with
 </div>
 
 ### Repository
-["TryHackMe Rooms to Help with BTL1"](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
++ ["TryHackMe Rooms to Help with BTL1"](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
 
 ### Phishing
  + [Phishing Module](https://tryhackme.com/module/phishing): This module contains five rooms (2 free, three paid/VIP) that walk you through analysis of phishing emails, tools you can use to analyze phishing emails, and phishing prevention techniques.
