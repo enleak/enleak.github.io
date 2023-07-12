@@ -19,7 +19,7 @@ Documenting my cybersecurity journey!
 
 ### TryHackMe
 
-| Number | Name | Difficulty | OS | Release Date | |
+| Number | Name | Difficulty | OS | Release Date |Link|
 | --- | --- | --- | --- | --- | --- |
 | 001 | Anonymous | Medium | Linux | 05/17/2020 | [Walk-through](./TryHackMe/Anonymous.md) |
 
@@ -29,7 +29,7 @@ Documenting my cybersecurity journey!
 
 ### HackTheBox
 
-| Number | Name | Difficulty | OS | Release Date | |
+| Number | Name | Difficulty | OS | Release Date |Link|
 | --- | --- | --- | --- | --- | --- |
 | 001 | Passage | Medium | Linux | 05/17/2020 | [Walk-through](./HackTheBox/Passage.md) |
 
