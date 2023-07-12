@@ -54,8 +54,9 @@ Additionally, the exam is structured so that the students are able to start thei
 +	"While 90% (on the first attempt) is required for the gold challenge coin and below are images of the coin."
   
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/693736e7-2ab8-4f2e-8f9f-2d26e352cb29)
-For in depth information visit their website at https://securityblue.team/why-btl1/.
 </div>
+
+For in depth information visit their website at https://securityblue.team/why-btl1/.
 
 
 <div align="center">
