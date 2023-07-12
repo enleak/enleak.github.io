@@ -126,26 +126,13 @@ Moving on, the resources recommended to prepare for the certification along with
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2c4e4b45-4ac7-4deb-a8a1-dc0895c55783)
 </div>
 
-I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "Backwards" by The Rare Occasions playing, and a dream! Structure your time however you see fit, you have 24 hours in order to complete the exam. Building a timeline was the most useful to me, noting down the time, date and description of all events aided in maintaining the investigation organized and structured. With prior experience using certain tools and the notes available I found myself answering a couple questions the first hour or 2. I would recommend disecting the questions and truly iunderstanding what youre being asked to look for. 
+I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "Backwards" by The Rare Occasions playing, and a dream! Structure your time however you see fit, you have 24 hours in order to complete the exam. Building a timeline was the most useful to me, noting down the time, date and description of all events aided in maintaining the investigation organized and structured. With prior experience using certain tools and the notes available I found myself answering a couple questions the first hour or 2. I would recommend disecting the questions and truly understanding what youre being asked to look for. The amount of fun I was having whilst progressing through the investigation is immeasurable, there will come a time where you find yourself answering a question and coming back later to review and edit it. At the 5 hour mark I was done for the most part, in retorspect, I wish I utilized an extra hour in order to guarantee that gold coin. About 6 hours in, I submitted my exam and got my passing grade instantly. 
 
 
 
 
 
-Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of comfort level with the material. 
-
-
-
-
-
-
-
-
-
-
-First, I would definitely recommend redoing the labs provided in the course and on Tryhackme for practical experience. These types of exams require you to use your critical thinking skills, so the answers may not be straightforward. Get comfortable and confident with the material from a hands-on perspective and understand the concepts behind those tools as well.
-
-In cybersecurity and any field, it is crucially important to build up your social network because it can open doors to opportunities that you thought were impossible to achieve. I recommend joining Slack channels or Discord servers that align with your field. Specifically, in cybersecurity, the following ones have really helped me prepare for this exam. Please note that this is not an exhaustive list, so I encourage you to explore and join other Discord servers or Slack channels that are best suited for you:
+In cybersecurity and any field, it is crucially important to build up your social network because it can open doors to opportunities that you thought were impossible to achieve. I recommend joining Slack channels or Discord servers that align with your field. Specifically, in cybersecurity, the following ones have really helped me prepare for this exam. Please note that this is not an exhaustive list, so I encourage you to explore and join other Discord servers that are best suited for you:
 
 - Cyberwox Academy: [Join](https://discord.gg/dqcse7QJYb)
 - Security Blue Team: [Join](https://discord.com/invite/gEUeKm8)
