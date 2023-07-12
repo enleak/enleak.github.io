@@ -109,6 +109,8 @@ Moving on, the resources recommended to prepare for the certification along with
 +	[Wireshark 101](https://tryhackme.com/room/wireshark)
 +	[YARA](https://tryhackme.com/room/yara)
 
+  
+
 Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of your comfort level with the material. Now, I will provide some tips and advice that do not violate the NDA pertaining to this exam.
 
 First, I would definitely recommend redoing the labs provided in the course and on Tryhackme for practical experience. These types of exams require you to use your critical thinking skills, so the answers may not be straightforward. Get comfortable and confident with the material from a hands-on perspective and understand the concepts behind those tools as well.
@@ -128,12 +130,13 @@ In cybersecurity and any field, it is crucially important to build up your socia
 
 To keep you inspired, I want to share this quote with you: "If you believe in yourself and feel confident in yourself, you can do anything" - Karlie Kloss. It's normal to feel that the exam is daunting and/or to feel burnout. However, remember that the certification can open doors for you in the cybersecurity field, stay motivated and strive to do your best. 
 
-Closing out, I want to express my gratitude to Joshua Speshock for creating this blog. I highly recommend following him on LinkedIn or Discord. You can also connect with me:
+Closing out, I want to express my gratitude to Joshua Speshock for contributing to a great extent on this blog. I highly recommend following him on LinkedIn or Discord. You can also connect with me:
 
 - LinkedIn: [Joshua Speshock](https://www.linkedin.com/in/joshua-speshock/)
 - Discord: josh_cyberlibrary_man
-- Ricardo Castro LinkedIn:
-- Discord: enleak
+
+- LinkedIn: [Richard Castro](https://www.linkedin.com/in/enleak/)
+
 
 ### Additionally, here are the websites and resources that were used to create this blog:
 
