@@ -45,7 +45,7 @@ And some of the tools that are covered in the course are:
 +	Splunk,
 +	Suricata, TheHive5, VirusTotal, Volatility, WannaBrowser, Windows File Analyzer, Wireshark and much more.
 
-Additionally, the exam is structured so that the students are able to start their practical 24-hour incident response exam immediately from the BTL1 course within 12 months of purchase. Most importantly, Students will have access to a cloud lab via an in-browser session for up to 24 hours and must complete and answer twenty task-based questions. In regards to passing, once the student has answered all the questions, they are able to submit the exam to receive immediate grading, feedback, and:
+Additionally, the exam is structured so that the students are able to start their practical 24-hour incident response exam immediately from the BTL1 course within 12 months of purchase. Most importantly, students will have access to a cloud based lab via an in-browser session for up to 24 hours and must complete and answer twenty task-based questions. In regards to passing, once the student has answered all the questions, they are able to submit the exam to receive immediate grading, feedback, and:
   
 
 <div align="center">
@@ -56,7 +56,9 @@ Additionally, the exam is structured so that the students are able to start thei
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/693736e7-2ab8-4f2e-8f9f-2d26e352cb29)
 </div>
 
+For in depth information visit their website at https://securityblue.team/why-btl1/.
 <div align="center">
+
 
 ### Resources
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1e9bef34-7402-45dd-9c48-a3393bd2b461)
