@@ -60,7 +60,7 @@ For in depth information visit their website at https://securityblue.team/why-bt
 
 
 
-Moving on, the resources recommended to use to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there is five areas that stand out to me that a friend created a GitHub for so definitely a big shoutout to my friend for creating that and they are listed below:
+Moving on, the resources recommended to prepare for the certification along with the browser labs and content that were provided by Security Blue Team are Tryhackme, more specifically their SOC Level 1 and their Cyber Defense paths. Now regarding the learning paths, there is five areas that stand out to me that a friend created a GitHub for, so definitely a big shoutout to my friend for creating that, they are listed below:
 
 <div align="center">
 
