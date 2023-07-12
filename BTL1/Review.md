@@ -126,7 +126,13 @@ Moving on, the resources recommended to prepare for the certification along with
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2c4e4b45-4ac7-4deb-a8a1-dc0895c55783)
 </div>
 
-Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of comfort level with the material. I began the exam in the afternoon wi
+I began the exam in the afternoon with some fresh iced coffee, 100 open tabs, "Backwards" by The Rare Occasions playing, and a dream! Structure your time however you see fit, you have 24 hours in order to complete the exam. Building a timeline was the most useful to me, noting down the time, date and description of all events aided in maintaining the investigation organized and structured. With prior experience using certain tools and the notes available I found myself answering a couple questions the first hour or 2. I would recommend disecting the questions and truly iunderstanding what youre being asked to look for. 
+
+
+
+
+
+Last but not least, it took me a total of five and a half hours to complete the entire exam, but that time can range in terms of comfort level with the material. 
 
 
 
