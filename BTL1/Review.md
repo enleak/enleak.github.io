@@ -143,8 +143,10 @@ Closing out, I want to express my gratitude to Joshua Speshock for contributing 
 
 - LinkedIn: [Richard Castro](https://www.linkedin.com/in/enleak/)
 
-
+<div align="center">
+  
 ### Additionally, here are the websites and resources that were used to create this blog:
+</div>
 
 + [Security Blue Team - Why BTL1?](https://securityblue.team/why-btl1/)
 + [Map Cybersecurity Domains Version 2.0](https://www.linkedin.com/pulse/map-cybersecurity-domains-version-20-henry-jiang-ciso-cissp/)
@@ -155,7 +157,10 @@ Closing out, I want to express my gratitude to Joshua Speshock for contributing 
 + [TryHackMe Hacktivities - Learning Paths](https://tryhackme.com/hacktivities#learning-paths)
 + [TryHackMe Rooms to Help with BTL1](https://github.com/securitypoodle/Cyber-Training-Platforms/blob/cb89b9a7ddc51b53b649a1bdaed1526eb0df4b89/SecurityBlueTeam/TryHackMe%20Rooms%20to%20Help%20with%20BTL1.md)
 
+<div align="center">
+  
 ### Links to community Discord servers that I definitely recommend joining:
+</div>
 
 + [Cyberwox Academy](https://discord.gg/dqcse7QJYb)
 + [Security Blue Team](https://discord.com/invite/gEUeKm8)
