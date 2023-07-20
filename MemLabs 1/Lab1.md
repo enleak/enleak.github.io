@@ -30,8 +30,13 @@ We see that there is a base64 string , let’s decode it and check if it’s the
 
 ## Second Flag!
 
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/49d9f567-dbc1-4419-8156-02fc6e2c8085)
+
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/56a835d6-b52e-4d33-bca5-82d7c8b4a0ae)
+
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/f2976ab2-a37e-4449-9979-ecbaf39378ba)
+
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.memmap --deump -pid 2424
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ed2dabe-5836-4636-b39a-fd04c360e38b)
