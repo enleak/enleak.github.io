@@ -81,8 +81,6 @@ Edit with GIMP and start digging: https://beguier.eu/nicolas/articles/security-t
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1edc9037-17c1-46a4-9cd4-dce7629b2c9c)
 
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/caed12c0-1073-422a-88ab-fc39568d0c90)
-
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/654e58d3-bdbf-4ecd-a680-b6b6b68df3f5)
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2adfe59d-f591-45ff-afe6-c2ae35a8c7b1)
