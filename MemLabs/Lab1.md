@@ -17,6 +17,7 @@ To begin with, download the `MemLabs-Lab1.7z` challenge file.
 The imageinfo output tells you the suggested profile that you should pass as the parameter to --profile=PROFILE when using other plugins."
 
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw imageinfo
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/66cb86cb-19a7-4559-84eb-f1501296ef6c)
 
 The list of processes is the first thing we should look at based on the hints provided. In order to do this we need to provide the `pslist` argument. 
@@ -24,6 +25,7 @@ The list of processes is the first thing we should look at based on the hints pr
 "To list the processes of a system, use the pslist command. This walks the doubly-linked list pointed to by PsActiveProcessHead and shows the offset, process name, process ID, the parent process ID, number of threads, number of handles, and date/time when the process started and exited".
 
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 pslist
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/8cea5fab-1269-41a9-ad48-911e86e5ffdf)
 
 We see that there is a windows command line open, let’s check if any commands were run on it via the `consoles` command. Naturally if we see that cmd.exe is/was running we next want to know what specific commands attackers typed into cmd.exe or executed via backdoors. The console argument in volatiltiy allows us to check for this, hence where we found the Base64 string. 
@@ -31,11 +33,13 @@ We see that there is a windows command line open, let’s check if any commands 
 "Similar to cmdscan the consoles plugin finds commands that attackers typed into cmd.exe or executed via backdoors. However, instead of scanning for COMMAND_HISTORY, this plugin scans for CONSOLE_INFORMATION. The major advantage to this plugin is it not only prints the commands attackers typed, but it collects the entire screen buffer (input and output)"
      
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 consoles
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/e797ec6f-968d-4af5-98a5-6f07373bdcc2)
 
 Under `C:\Users\SmartNet`, we see that there is a base64 string , let’s decode it and check if it’s the first flag:
         
     echo "ZmxhZ3t0aDFzXzFzX3RoM18xc3Rfc3Q0ZzMhIX0=" | base64 --decode
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/ecaaf270-c9e8-4189-9ab0-c3143035c715)
 
 BOOM, WE SECURED THE FIRST FLAG!!
@@ -61,17 +65,20 @@ For this section, I am using Ubuntu on Windows 11 via WSL because my Kali VM had
 Cheatsheet for Volatility 3: https://blog.onfvp.com/post/volatility-cheatsheet/
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/8b4fe9ab-d348-489b-a975-eeb6254ca353)
 
 "To extract all memory resident pages in a process (see memmap for details) into an individual file, use the memdump command. Supply the output directory with -D or --dump-dir=DIR."
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.memmap --deump -pid 2424
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ed2dabe-5836-4636-b39a-fd04c360e38b)
 
 Now that we extracted all memory resident pages in the `mspaint.exe` process into `pid.2424.dmp`, let's rename it into 
 `pid.2424.data` since GIMP will automatically understand this as a raw input.
 
     cp pid.2424.dmp pid.2424.data
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/4a00f5a4-e228-45ad-a92b-e8b5efab0fbe)
 
 Now, let's set the Image type to `RGP Alpha` and play around with the offset, width, and length in order to find our second flag.
@@ -100,6 +107,7 @@ Source: https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-fo
 The cmdline plugin will display process command-line arguments:
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.cmdline
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/907c58fb-b5c8-4073-9031-2a6f20eee7d2)
 
 We notice that `WinRAR.exe` appears, "WinRAR is a powerful compression, archiving and archive managing software tool".
@@ -107,6 +115,7 @@ We notice that `WinRAR.exe` appears, "WinRAR is a powerful compression, archivin
 "To find FILE_OBJECTs in physical memory using pool tag scanning, use the `filescan` command. This will find open files even if a rootkit is hiding the files on disk and if the rootkit hooks some API functions to hide the open handles on a live system. The output shows the physical offset of the FILE_OBJECT, file name, number of pointers to the object, number of handles to the object, and the effective permissions granted to the object."
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.filescan | grep Important.rar
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49dac5a7-10ee-49fe-90c3-ac362ea235ec)
 
 "An important concept that every computer scientist, especially those who have spent time doing operating system research, is intimately familiar with is that of caching. Files are cached in memory for system performance as they are accessed and used. This makes the cache a valuable source from a forensic perspective since we are able to retrieve files that were in use correctly, instead of file carving which does not make use of how items are mapped in memory. Files may not be completely mapped in memory (also for performance), so missing sections are zero padded. Files dumped from memory can then be processed with external tools.
@@ -126,21 +135,25 @@ vacb – SharedCacheMap"
 Let's dump the file:
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.dumpfiles --physaddr 0x3fa3ebc0
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2d36fd7b-3cdb-4d66-9dfe-488d8d94903e)
 
 Renaming the file:
 
     mv file.None.0xfffffa8001034450.dat Important.rar
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ab94ca8-4dff-40d3-9124-417d831cf949)
 
 Upon trying to open the `Important.rar` file, we notice that the NTLM hash of Alissa is needed:
 
     unrar e Important.rar
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/e825a7f2-4773-4063-b2fa-513849af2051)
 
 "To extract and decrypt cached domain credentials stored in the registry, use the `hashdump` command" We  use the hashdump argument in order to dump all NTLM hashes:
 
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 hashdump
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1baf9aa1-1dd1-4643-931e-cee041295308)
 
 Make the NTLM hash all upper case:
@@ -149,11 +162,13 @@ Make the NTLM hash all upper case:
 Now that we have the password as requested, we can finally open `Important.rar` which contains the third flag!
 
     unrar e Important.rar
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6b82ca08-bc64-468f-9ec7-2d6399d1cf84)
 
 Opening the `PNG` reveals the last flag!
 
     xdg-open flag3.png
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/5af18c1f-9274-415e-9c86-d0533ac2ec96)
 
 LETS GOOOOOOOOOOO!!
