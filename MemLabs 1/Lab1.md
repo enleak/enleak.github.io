@@ -38,6 +38,8 @@ Under `C:\Users\SmartNet`, we see that there is a base64 string , let’s decode
     echo "ZmxhZ3t0aDFzXzFzX3RoM18xc3Rfc3Q0ZzMhIX0=" | base64 --decode
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/ecaaf270-c9e8-4189-9ab0-c3143035c715)
 
+BOOM, WE SECURED THE FIRST FLAG!!
+
 ## Second Flag!
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49d9f567-dbc1-4419-8156-02fc6e2c8085)
