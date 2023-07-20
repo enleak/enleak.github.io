@@ -31,7 +31,7 @@ The first suggested profile is `Win7SP1x64` so this is what we'll feed into the 
     
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/8cea5fab-1269-41a9-ad48-911e86e5ffdf)
 
-We see that there is a windows command line open, let’s check if any commands were run on it via the `consoles` command. Naturally if we see that cmd.exe is/was running we next want to know what specific commands attackers typed into cmd.exe or executed via backdoors. The console argument in volatiltiy allows us to check for this, hence where we found the Base64 string. 
+We see that there is a windows command line open, let’s check if any weird commands were ran on it via the `consoles` command. Naturally if we see that cmd.exe was running we next want to know what specific commands attackers typed or executed via backdoors. The console argument in volatiltiy allows us to check for this, hence where we found the Base64 string. 
 
 "Similar to cmdscan the consoles plugin finds commands that attackers typed into cmd.exe or executed via backdoors. However, instead of scanning for COMMAND_HISTORY, this plugin scans for CONSOLE_INFORMATION. The major advantage to this plugin is it not only prints the commands attackers typed, but it collects the entire screen buffer (input and output)"
      
