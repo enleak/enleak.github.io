@@ -27,3 +27,29 @@ We see that there is a base64 string , let’s decode it and check if it’s the
         
     echo "ZmxhZ3t0aDFzXzFzX3RoM18xc3Rfc3Q0ZzMhIX0=" | base64 --decode
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/ecaaf270-c9e8-4189-9ab0-c3143035c715)
+
+## Second Flag!
+
+    python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/56a835d6-b52e-4d33-bca5-82d7c8b4a0ae)
+
+    python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.memmap --deump -pid 2424
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ed2dabe-5836-4636-b39a-fd04c360e38b)
+
+    cp pid.2424.dmp pid.2424.data
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/4a00f5a4-e228-45ad-a92b-e8b5efab0fbe)
+
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/654e58d3-bdbf-4ecd-a680-b6b6b68df3f5)
+
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/2adfe59d-f591-45ff-afe6-c2ae35a8c7b1)
+
+
+
+
+
+
+
+
+
+
+
