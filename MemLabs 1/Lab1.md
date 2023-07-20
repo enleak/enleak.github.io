@@ -8,11 +8,11 @@ Download Volatilty: https://github.com/volatilityfoundation/volatility
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/ced012af-c0bb-44be-b6e8-73233d09423b)
 
-To begin with, download the "MemLabs-Lab1.7z" challenge file.
+To begin with, download the `MemLabs-Lab1.7z` challenge file.
 
 
 ## First Flag!
-"For a high level summary of the memory sample you're analyzing, use the imageinfo command. Most often this command is used to identify the operating system, service pack, and hardware architecture (32 or 64 bit), but it also contains other useful information such as the DTB address and time the sample was collected.
+"For a high level summary of the memory sample you're analyzing, use the `imageinfo` command. Most often this command is used to identify the operating system, service pack, and hardware architecture (32 or 64 bit), but it also contains other useful information such as the DTB address and time the sample was collected.
 
 The imageinfo output tells you the suggested profile that you should pass as the parameter to --profile=PROFILE when using other plugins."
 
