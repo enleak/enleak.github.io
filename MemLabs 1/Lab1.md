@@ -103,6 +103,7 @@ The cmdline plugin will display process command-line arguments:
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/907c58fb-b5c8-4073-9031-2a6f20eee7d2)
 
 We notice that `WinRAR.exe` appears, "WinRAR is a powerful compression, archiving and archive managing software tool". 
+
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.filescan | grep Important.rar
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49dac5a7-10ee-49fe-90c3-ac362ea235ec)
 
