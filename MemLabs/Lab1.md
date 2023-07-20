@@ -17,7 +17,7 @@ To begin with, download the `MemLabs-Lab1.7z` challenge file.
 ## First Flag!
 "For a high level summary of the memory sample you're analyzing, use the `imageinfo` command. Most often this command is used to identify the operating system, service pack, and hardware architecture (32 or 64 bit), but it also contains other useful information such as the DTB address and time the sample was collected.
 
-The imageinfo output tells you the suggested profile that you should pass as the parameter to --profile=PROFILE when using other plugins."
+The imageinfo output tells you the suggested profile that you should pass as the parameter to --profile=PROFILE when using other plugins.
 
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw imageinfo
     
