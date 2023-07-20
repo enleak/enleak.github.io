@@ -20,7 +20,7 @@ Documenting my cybersecurity journey!
 
 |Release Date|Link|
 |------------|----|
-| 07/20/2023 | [MemLabs 1]("./MemLabs 1/Lab1.md") |
+| 07/20/2023 | [MemLabs 1]("./MemLabs/Lab1.md") |
 
 
 ### TryHackMe
