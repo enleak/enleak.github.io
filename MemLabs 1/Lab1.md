@@ -13,6 +13,8 @@ To begin with, download the "MemLabs-Lab1.7z" challenge file.
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw imageinfo
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/66cb86cb-19a7-4559-84eb-f1501296ef6c)
 
+## First Flag!
+
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/96bc37ae-d2a2-4bf8-8f4d-27ffcfb89ac2)
 
