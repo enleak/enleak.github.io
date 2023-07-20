@@ -14,7 +14,8 @@ MemLabs is an educational, introductory set of CTF-styled challenges which is ai
 
 ## Challenge Description
 
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/ced012af-c0bb-44be-b6e8-73233d09423b)
+ ![image](https://github.com/enleak/enleak.github.io/assets/55566953/498e4e20-0df7-4336-92b4-1176653badd9)
+
 
 To begin with, download the `MemLabs-Lab1.7z` challenge file.
 
