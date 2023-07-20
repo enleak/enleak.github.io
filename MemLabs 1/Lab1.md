@@ -36,9 +36,10 @@ We see that there is a base64 string , let’s decode it and check if it’s the
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49d9f567-dbc1-4419-8156-02fc6e2c8085)
 
-    python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/56a835d6-b52e-4d33-bca5-82d7c8b4a0ae)
+    python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 pslist
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/8cea5fab-1269-41a9-ad48-911e86e5ffdf)
 
+    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/f2976ab2-a37e-4449-9979-ecbaf39378ba)
 Source: https://ctftime.org/writeup/23198
 
