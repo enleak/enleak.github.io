@@ -86,6 +86,8 @@ Edit with GIMP and start digging: https://beguier.eu/nicolas/articles/security-t
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2adfe59d-f591-45ff-afe6-c2ae35a8c7b1)
 
+LETS GOOOOOO, WE GOT THE SECOND FLAG!!
+
 ## Third Flag!
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.cmdline
