@@ -173,4 +173,13 @@ Opening the `PNG` reveals the last flag!
 
 LETS GOOOOOOOOOOO!!
 
+## Resources:
++ [CTFTime Writeup](https://ctftime.org/writeup/23198)
++ [Introduction to Memory Forensics - Digital Forensics Course](https://youtu.be/1PAGcPJFwbE)
++ [Volatility Cheatsheet by Ashley](https://blog.onfvp.com/post/volatility-cheatsheet/)
++ [HackTricks Volatility Cheatsheet](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet)
++ [Volatility Command Reference](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference)
+
+
+
 
