@@ -19,6 +19,8 @@ The imageinfo output tells you the suggested profile that you should pass as the
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw imageinfo
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/66cb86cb-19a7-4559-84eb-f1501296ef6c)
 
+The list of processes is the first thing we should look at based on the hints provided. In order to do this we need to provide the `pslist` argument.
+
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 pslist
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/8cea5fab-1269-41a9-ad48-911e86e5ffdf)
 
