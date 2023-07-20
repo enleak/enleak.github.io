@@ -102,6 +102,7 @@ The cmdline plugin will display process command-line arguments:
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.cmdline
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/907c58fb-b5c8-4073-9031-2a6f20eee7d2)
 
+We notice that `WinRAR.exe` appears, "WinRAR is a powerful compression, archiving and archive managing software tool". 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.filescan | grep Important.rar
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49dac5a7-10ee-49fe-90c3-ac362ea235ec)
 
@@ -111,8 +112,12 @@ The cmdline plugin will display process command-line arguments:
     mv file.None.0xfffffa8001034450.dat Important.rar
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ab94ca8-4dff-40d3-9124-417d831cf949)
 
+Upon trying to open the `Important.rar` file, we notice that the NTLM hash of Alissa is needed:
+
     unrar e Important.rar
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/e825a7f2-4773-4063-b2fa-513849af2051)
+
+"To extract and decrypt cached domain credentials stored in the registry, use the `hashdump` command" We  use the hashdump argument in order to dump all NTLM hashes:
 
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 hashdump
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1baf9aa1-1dd1-4643-931e-cee041295308)
@@ -120,13 +125,17 @@ The cmdline plugin will display process command-line arguments:
 Make the NTLM hash all upper case:
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/44e51052-2f53-4085-b5af-c3291fe9feb5)
 
+Now that we have the password as requested, we can finally open `Important.rar` which contains the third flag!
+
     unrar e Important.rar
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6b82ca08-bc64-468f-9ec7-2d6399d1cf84)
+
+Opening the `PNG` reveals the last flag!
 
     xdg-open flag3.png
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/5af18c1f-9274-415e-9c86-d0533ac2ec96)
 
-
+LETS GOOOOOOOOOOO!!
 
 
 
