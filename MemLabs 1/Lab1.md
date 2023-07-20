@@ -97,6 +97,8 @@ LETS GOOOOOO, WE GOT THE SECOND FLAG!!
 
 Source: https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet
 
+The cmdline plugin will display process command-line arguments:
+
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.cmdline
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/907c58fb-b5c8-4073-9031-2a6f20eee7d2)
 
