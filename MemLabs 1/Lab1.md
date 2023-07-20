@@ -76,7 +76,7 @@ Now that we extracted all memory resident pages in the `mspaint.exe` process int
 
 Now, let's set the Image type to `RGP Alpha` and play around with the offset, width, and length in order to find our second flag.
 
-"Edit with GIMP and start digging": https://beguier.eu/nicolas/articles/security-tips-2-volatility-gimp.html
+Edit with GIMP and start digging: https://beguier.eu/nicolas/articles/security-tips-2-volatility-gimp.html
 
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1edc9037-17c1-46a4-9cd4-dce7629b2c9c)
