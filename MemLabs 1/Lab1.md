@@ -16,4 +16,8 @@ To begin with, download the "MemLabs-Lab1.7z" challenge file.
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/96bc37ae-d2a2-4bf8-8f4d-27ffcfb89ac2)
 
+We see that there is a cmd console open, let’s check if any commands were run on it via the consoles command. Naturally if we see that cmd.exe is/was running we next want to know what specific commands attackers typed into cmd.exe or executed via backdoors. The console flag in Volatiltiy allows us to check for this, hence where we found the Base64 string. 
+     
+    python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 consoles
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/e797ec6f-968d-4af5-98a5-6f07373bdcc2)
 
