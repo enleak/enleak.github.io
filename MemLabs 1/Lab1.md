@@ -33,7 +33,7 @@ We see that there is a windows command line open, let’s check if any commands 
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 consoles
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/e797ec6f-968d-4af5-98a5-6f07373bdcc2)
 
-We see that there is a base64 string , let’s decode it and check if it’s the first flag:
+Under `C:\Users\SmartNet`, we see that there is a base64 string , let’s decode it and check if it’s the first flag:
         
     echo "ZmxhZ3t0aDFzXzFzX3RoM18xc3Rfc3Q0ZzMhIX0=" | base64 --decode
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/ecaaf270-c9e8-4189-9ab0-c3143035c715)
