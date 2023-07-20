@@ -159,7 +159,7 @@ Upon trying to open the `Important.rar` file, we notice that the NTLM hash of Al
     
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/e825a7f2-4773-4063-b2fa-513849af2051)
 
-"To extract and decrypt cached domain credentials stored in the registry, use the `hashdump` command" We  use the hashdump argument in order to dump all NTLM hashes:
+"To extract and decrypt cached domain credentials stored in the registry, use the `hashdump` command". We  use the hashdump argument in order to dump all NTLM hashes:
 
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 hashdump
     
