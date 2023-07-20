@@ -36,11 +36,12 @@ We see that there is a base64 string , let’s decode it and check if it’s the
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49d9f567-dbc1-4419-8156-02fc6e2c8085)
 
-    
-
-    
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/f2976ab2-a37e-4449-9979-ecbaf39378ba)
 Source: https://ctftime.org/writeup/23198
+
+    python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/8b4fe9ab-d348-489b-a975-eeb6254ca353)
+
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.memmap --deump -pid 2424
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ed2dabe-5836-4636-b39a-fd04c360e38b)
