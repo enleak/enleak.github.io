@@ -1,6 +1,7 @@
 # MemLabs Lab 1 - Beginner's Luck
 
-![image](https://github.com/enleak/enleak.github.io/assets/55566953/4c6f9c28-9520-4486-9f72-bb0ea494fdc2)
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/969fff97-ce9c-467d-bdb7-dc94beaab3d6)
+
 
 
 ## About Memlabs
