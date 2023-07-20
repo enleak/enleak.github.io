@@ -63,9 +63,13 @@ Cheatsheet for Volatility 3: https://blog.onfvp.com/post/volatility-cheatsheet/
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/8b4fe9ab-d348-489b-a975-eeb6254ca353)
 
+"To extract all memory resident pages in a process (see memmap for details) into an individual file, use the memdump command. Supply the output directory with -D or --dump-dir=DIR."
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.memmap --deump -pid 2424
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ed2dabe-5836-4636-b39a-fd04c360e38b)
+
+Now that we extracted all memory resident pages in the `mspaint.exe` process into `pid.2424.dmp`, let's rename it into 
+`pid.2424.data` since GIMP will automatically understand this as a raw input.
 
     cp pid.2424.dmp pid.2424.data
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/4a00f5a4-e228-45ad-a92b-e8b5efab0fbe)
