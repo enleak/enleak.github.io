@@ -58,6 +58,8 @@ Source: https://ctftime.org/writeup/23198
 
 For this section, I am using Ubuntu on Windows 11 via WSL because my Kali VM had some packages with unmet dependencies and after troubleshooting, nothing worked. With python 3 already installed in my Windows 11 VM, I decided to use Volatility 3 for this flag. 
 
+Cheatsheet for Volatility 3: https://blog.onfvp.com/post/volatility-cheatsheet/
+
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.pslist
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/8b4fe9ab-d348-489b-a975-eeb6254ca353)
 
