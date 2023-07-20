@@ -102,13 +102,33 @@ The cmdline plugin will display process command-line arguments:
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.cmdline
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/907c58fb-b5c8-4073-9031-2a6f20eee7d2)
 
-We notice that `WinRAR.exe` appears, "WinRAR is a powerful compression, archiving and archive managing software tool". 
+We notice that `WinRAR.exe` appears, "WinRAR is a powerful compression, archiving and archive managing software tool".
+
+"To find FILE_OBJECTs in physical memory using pool tag scanning, use the `filescan` command. This will find open files even if a rootkit is hiding the files on disk and if the rootkit hooks some API functions to hide the open handles on a live system. The output shows the physical offset of the FILE_OBJECT, file name, number of pointers to the object, number of handles to the object, and the effective permissions granted to the object."
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.filescan | grep Important.rar
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49dac5a7-10ee-49fe-90c3-ac362ea235ec)
 
+"An important concept that every computer scientist, especially those who have spent time doing operating system research, is intimately familiar with is that of caching. Files are cached in memory for system performance as they are accessed and used. This makes the cache a valuable source from a forensic perspective since we are able to retrieve files that were in use correctly, instead of file carving which does not make use of how items are mapped in memory. Files may not be completely mapped in memory (also for performance), so missing sections are zero padded. Files dumped from memory can then be processed with external tools.
+
+The dumped filename is in the format of:
+
+file.[PID].[OFFSET].ext
+
+The OFFSET is the offset of the SharedCacheMap or the _CONTROL_AREA, not the _FILE_OBJECT.
+
+The extension (EXT) can be:
+
+img – ImageSectionObject
+dat - DataSectionObject
+vacb – SharedCacheMap"
+
+Let's dump the file:
+
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.dumpfiles --physaddr 0x3fa3ebc0
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2d36fd7b-3cdb-4d66-9dfe-488d8d94903e)
+
+Renaming the file:
 
     mv file.None.0xfffffa8001034450.dat Important.rar
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ab94ca8-4dff-40d3-9124-417d831cf949)
