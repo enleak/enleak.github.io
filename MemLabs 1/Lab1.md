@@ -94,6 +94,7 @@ LETS GOOOOOO, WE GOT THE SECOND FLAG!!
 ## Third Flag!
 
 "Commands entered into cmd.exe are processed by conhost.exe (csrss.exe prior to Windows 7). So even if an attacker managed to kill the cmd.exe prior to us obtaining a memory dump, there is still a good chance of recovering history of the command line session from conhost.exe’s memory. If you find something weird (using the console's modules), try to dump the memory of the conhost.exe associated process and search for strings inside it to extract the command lines."
+
 Source: https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet
 
     python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.cmdline
