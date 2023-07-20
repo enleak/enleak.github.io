@@ -63,6 +63,14 @@ We see that there is a base64 string , let’s decode it and check if it’s the
     python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 hashdump
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1baf9aa1-1dd1-4643-931e-cee041295308)
 
+Make the NTLM hash all upper case:
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/44e51052-2f53-4085-b5af-c3291fe9feb5)
+
+    unrar e Important.rar
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/6b82ca08-bc64-468f-9ec7-2d6399d1cf84)
+
+    xdg-open flag3.png
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/5af18c1f-9274-415e-9c86-d0533ac2ec96)
 
 
 
