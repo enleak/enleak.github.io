@@ -42,7 +42,7 @@ BOOM, WE SECURED THE FIRST FLAG!!
 
 ## Second Flag!
 
-For the second flag we will refer back to the challenge description which mentions, "when the crash happened, she was trying to draw something". This hint in addition to the `mspaint
+For the second flag we will refer back to the challenge description which mentions, "when the crash happened, she was trying to draw something". This hint in addition to the `mspaint.exe` process running, points us towards the right direciton.
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49d9f567-dbc1-4419-8156-02fc6e2c8085)
 
