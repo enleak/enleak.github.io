@@ -74,6 +74,11 @@ Now that we extracted all memory resident pages in the `mspaint.exe` process int
     cp pid.2424.dmp pid.2424.data
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/4a00f5a4-e228-45ad-a92b-e8b5efab0fbe)
 
+Now, let's set the Image type to `RGP Alpha` and play around with the offset, width, and length in order to find our second flag.
+
+"Edit with GIMP and start digging": https://beguier.eu/nicolas/articles/security-tips-2-volatility-gimp.html
+
+
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1edc9037-17c1-46a4-9cd4-dce7629b2c9c)
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/caed12c0-1073-422a-88ab-fc39568d0c90)
