@@ -46,6 +46,10 @@ For the second flag we will refer back to the challenge description which mentio
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49d9f567-dbc1-4419-8156-02fc6e2c8085)
 
+Googling for `mspaint memory dump` takes us to a writeup for a 2020 CTF on CTFtime.org.
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/96967ed7-4dee-4b7a-9ff9-f92900395e02)
+
+
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/f2976ab2-a37e-4449-9979-ecbaf39378ba)
 Source: https://ctftime.org/writeup/23198
 
