@@ -42,6 +42,8 @@ BOOM, WE SECURED THE FIRST FLAG!!
 
 ## Second Flag!
 
+For the second flag we will refer back to the challenge description which mentions, "when the crash happened, she was trying to draw something". This hint in addition to the `mspaint
+
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/49d9f567-dbc1-4419-8156-02fc6e2c8085)
 
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/f2976ab2-a37e-4449-9979-ecbaf39378ba)
