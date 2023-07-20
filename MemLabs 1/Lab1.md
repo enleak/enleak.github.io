@@ -45,8 +45,23 @@ We see that there is a base64 string , let’s decode it and check if it’s the
 
 
 
+    python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.cmdline
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/907c58fb-b5c8-4073-9031-2a6f20eee7d2)
 
+    python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw windows.filescan | grep Important.rar
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/49dac5a7-10ee-49fe-90c3-ac362ea235ec)
 
+    python3 vol.py -f ../../MemLabs/MemoryDump_Lab1.raw -o /home/enleak/Memlabs windows.dumpfiles --physaddr 0x3fa3ebc0
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/2d36fd7b-3cdb-4d66-9dfe-488d8d94903e)
+
+    mv file.None.0xfffffa8001034450.dat Important.rar
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/6ab94ca8-4dff-40d3-9124-417d831cf949)
+
+    unrar e Important.rar
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/e825a7f2-4773-4063-b2fa-513849af2051)
+
+    python vol.py -f ../../MemLabs/MemoryDump_Lab1.raw --profile Win7SP1x64 hashdump
+![image](https://github.com/enleak/enleak.github.io/assets/55566953/1baf9aa1-1dd1-4643-931e-cee041295308)
 
 
 
