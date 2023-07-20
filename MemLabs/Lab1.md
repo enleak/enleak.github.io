@@ -4,7 +4,7 @@
 
 MemLabs is an educational, introductory set of CTF-styled challenges which is aimed to encourage students, security researchers and also CTF players to get started with the field of Memory Forensics. "I'd suggest everyone use The Volatility Framework for analysing the memory images", the main tool being used is going to be Volatility. 
 
-## Volatility Download
+## Volatility Github Repository
 
 [Download Volatilty](https://github.com/volatilityfoundation/volatility)
 
