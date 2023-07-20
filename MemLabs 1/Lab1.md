@@ -82,9 +82,11 @@ Edit with GIMP and start digging: https://beguier.eu/nicolas/articles/security-t
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/1edc9037-17c1-46a4-9cd4-dce7629b2c9c)
 
 The image is upside down :O
+
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/b664ab2a-def6-4c33-8bd8-78bdd8f1b923)
 
 Let's rotate it:
+
 ![image](https://github.com/enleak/enleak.github.io/assets/55566953/2adfe59d-f591-45ff-afe6-c2ae35a8c7b1)
 
 LETS GOOOOOO, WE GOT THE SECOND FLAG!!
